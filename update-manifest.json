@@ -2,20 +2,20 @@
   "schema": 1,
   "channels": {
     "stable": {
-      "version": "0.9.5",
-      "notes": "Fixed the Windows taskbar icon, desktop shortcut access, and startup update checks.",
+      "version": "0.9.6",
+      "notes": "Expanded keyword groups, clearer active-match selection, highlighted Excel and CSV PDFs, and full-interface startup.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v0.9.5/Auto-Search-0.9.5-macOS-arm64.zip",
-          "sha256": "70c322c5f1e4a731776f3a57ede3a669225dcb314d59fb97d2bddc90882abf6d",
-          "size": 73262927,
-          "signature": "eKczvA7UQ9g3703O659QDbnu3CWdbmEHKOM8cvC7J2ga/o3lXmx7TOVTtS9mDz/I79NMdV3Nce8XM86gM12NDA=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v0.9.6/Auto-Search-0.9.6-macOS-arm64.zip",
+          "sha256": "8856312092ac5c3f6aa5f4ded775cf6c3610a1b5b1a789536d06f842b88facca",
+          "size": 73268874,
+          "signature": "E2QUtRriq9deG1+wgPloWX071ez8mpGgM/7/d3Cefp1tZn7t0QKn/sz2oGB3MQxVQwCEeZqE3qo6q5vjnZV4Bg=="
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v0.9.5/Auto-Search-0.9.5-windows-x64.zip",
-          "sha256": "f7c51e01c78a32c73b9d672afcdcbd3c16852f32b02aaea233a975e2a5cb239c",
-          "size": 86100636,
-          "signature": "2+z88iOW5EAC3pSVRonAyshapxhAV4Bv42s3DqniEXzsut9ufqKdWlNTd+bl9s6SzSgsvmrivPJJkkrfLS6xCA=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v0.9.6/Auto-Search-0.9.6-windows-x64.zip",
+          "sha256": "e22aedb409f40658e46472401cf6171e6d0c05ce718cbc6434b390dbc1f77f6a",
+          "size": 86104106,
+          "signature": "TWYFJCAiWlJRLewoKLRVjKqDGMjP5Fj+YvKbvQcYkcDcKLIunokP+OivT6vYRURbdARZKc+kMCZQcVOPiHrlDw=="
         }
       }
     }
