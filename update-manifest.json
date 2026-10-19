@@ -2,20 +2,20 @@
   "schema": 1,
   "channels": {
     "stable": {
-      "version": "0.9.6",
-      "notes": "Expanded keyword groups, clearer active-match selection, highlighted Excel and CSV PDFs, and full-interface startup.",
+      "version": "0.9.7",
+      "notes": "Native Excel-rendered CSV Preview, vivid pink active-match selection, and lower startup CPU and memory use.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v0.9.6/Auto-Search-0.9.6-macOS-arm64.zip",
-          "sha256": "8856312092ac5c3f6aa5f4ded775cf6c3610a1b5b1a789536d06f842b88facca",
-          "size": 73268874,
-          "signature": "E2QUtRriq9deG1+wgPloWX071ez8mpGgM/7/d3Cefp1tZn7t0QKn/sz2oGB3MQxVQwCEeZqE3qo6q5vjnZV4Bg=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v0.9.7/Auto-Search-0.9.7-macOS-arm64.zip",
+          "sha256": "9382325f280071d98e5c4e37f93176591bb0f3ad0e04443b401dcfe98f0a6c87",
+          "size": 73267387,
+          "signature": "4ifDETf8n+sM/ELzxc4Ju4prb56+V8+KuFyTLpmKawwvgPI2FCujzWbPLWhArdSTj+ZKIVJHbNatNgWVXaxHCQ=="
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v0.9.6/Auto-Search-0.9.6-windows-x64.zip",
-          "sha256": "e22aedb409f40658e46472401cf6171e6d0c05ce718cbc6434b390dbc1f77f6a",
-          "size": 86104106,
-          "signature": "TWYFJCAiWlJRLewoKLRVjKqDGMjP5Fj+YvKbvQcYkcDcKLIunokP+OivT6vYRURbdARZKc+kMCZQcVOPiHrlDw=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v0.9.7/Auto-Search-0.9.7-windows-x64.zip",
+          "sha256": "d1233bbab0dec7c4794291bbc06f72bcfa7406e44f9646600021a70eedef47ed",
+          "size": 86104739,
+          "signature": "P3OGXTsMqfdjlG8diPKl28gcrWXcdOqGUSzvzM3vWFUH5CDGuQ49Q5pyhyJg/b2237cA26sUCPq0ectnGRiCBQ=="
         }
       }
     }
