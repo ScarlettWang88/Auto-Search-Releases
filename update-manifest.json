@@ -2,20 +2,20 @@
   "schema": 1,
   "channels": {
     "stable": {
-      "version": "0.9.7",
-      "notes": "Native Excel-rendered CSV Preview, vivid pink active-match selection, and lower startup CPU and memory use.",
+      "version": "1.0.0",
+      "notes": "Official 1.0 release with marked Excel outputs, expanded Preview controls, lower resource use, and signed in-app updates.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v0.9.7/Auto-Search-0.9.7-macOS-arm64.zip",
-          "sha256": "9382325f280071d98e5c4e37f93176591bb0f3ad0e04443b401dcfe98f0a6c87",
-          "size": 73267387,
-          "signature": "4ifDETf8n+sM/ELzxc4Ju4prb56+V8+KuFyTLpmKawwvgPI2FCujzWbPLWhArdSTj+ZKIVJHbNatNgWVXaxHCQ=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.0/Auto-Search-1.0.0-macOS-arm64.zip",
+          "sha256": "3572dde013d1f1d2e812ae79d9d9fcef5e499f55fc45012c17b19f2426417e63",
+          "size": 73274774,
+          "signature": "si4a+Kkke1u/9FqExs8fXNV36U+yt+quEjSvREgeJbOtKAzfQGv61q0b369D12DHHagAEtTRVf7yNMyfj+/PAw=="
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v0.9.7/Auto-Search-0.9.7-windows-x64.zip",
-          "sha256": "d1233bbab0dec7c4794291bbc06f72bcfa7406e44f9646600021a70eedef47ed",
-          "size": 86104739,
-          "signature": "P3OGXTsMqfdjlG8diPKl28gcrWXcdOqGUSzvzM3vWFUH5CDGuQ49Q5pyhyJg/b2237cA26sUCPq0ectnGRiCBQ=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.0/Auto-Search-1.0.0-windows-x64.zip",
+          "sha256": "4b5eb2c9e0070ed4cbd47213e2903458e895cfc8c045124bbcaf3b6585683138",
+          "size": 86111498,
+          "signature": "cr4lMIwnan52EdMIcSAbsVFeFt36fHJdGqo2mPvt5uofbmkucYhmpMquopn1CqFM/qzMUp0vYirGi9GDQczYCA=="
         }
       }
     }
