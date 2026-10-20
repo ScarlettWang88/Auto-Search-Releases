@@ -2,20 +2,20 @@
   "schema": 1,
   "channels": {
     "stable": {
-      "version": "1.0.0",
-      "notes": "Official 1.0 release with marked Excel outputs, expanded Preview controls, lower resource use, and signed in-app updates.",
+      "version": "1.0.1",
+      "notes": "Fixes stale Preview thumbnails and restores selectable timestamped output folders.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.0/Auto-Search-1.0.0-macOS-arm64.zip",
-          "sha256": "3572dde013d1f1d2e812ae79d9d9fcef5e499f55fc45012c17b19f2426417e63",
-          "size": 73274774,
-          "signature": "si4a+Kkke1u/9FqExs8fXNV36U+yt+quEjSvREgeJbOtKAzfQGv61q0b369D12DHHagAEtTRVf7yNMyfj+/PAw=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.1/Auto-Search-1.0.1-macOS-arm64.zip",
+          "sha256": "2824c87b6b6b8b8da18d2dfe106295dee86b0042eaf5b7f23f43e75240905d7b",
+          "size": 73275240,
+          "signature": "hojuruPFuQvXnQvmZZqY4zTLsoKpuzTnWfYlCQ5NiS5LXfq/l8/2AGg1Y7XH5SWXZm0iPhDtOWWeB7J2JXoCCw=="
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.0/Auto-Search-1.0.0-windows-x64.zip",
-          "sha256": "4b5eb2c9e0070ed4cbd47213e2903458e895cfc8c045124bbcaf3b6585683138",
-          "size": 86111498,
-          "signature": "cr4lMIwnan52EdMIcSAbsVFeFt36fHJdGqo2mPvt5uofbmkucYhmpMquopn1CqFM/qzMUp0vYirGi9GDQczYCA=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.1/Auto-Search-1.0.1-windows-x64.zip",
+          "sha256": "871ef45d21d387f4c0b0fb94e2c959e27ea86b12aacf1c14196fb36383a32415",
+          "size": 86112791,
+          "signature": "wqBehrW0jck49HjxkQc4sc4Y8SSmmQk0fLhBylFhWWDZxtSTwdiwWQwmet5/ZfV5E0HwlZ1gjXQvPFnqzbo5Dw=="
         }
       }
     }
