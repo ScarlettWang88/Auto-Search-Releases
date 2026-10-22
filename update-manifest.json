@@ -2,20 +2,20 @@
   "schema": 1,
   "channels": {
     "stable": {
-      "version": "1.0.1",
-      "notes": "Fixes stale Preview thumbnails and restores selectable timestamped output folders.",
+      "version": "1.0.2",
+      "notes": "Improves Windows startup, update recovery, Excel Preview performance, and Keyword Group editing and import.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.1/Auto-Search-1.0.1-macOS-arm64.zip",
-          "sha256": "2824c87b6b6b8b8da18d2dfe106295dee86b0042eaf5b7f23f43e75240905d7b",
-          "size": 73275240,
-          "signature": "hojuruPFuQvXnQvmZZqY4zTLsoKpuzTnWfYlCQ5NiS5LXfq/l8/2AGg1Y7XH5SWXZm0iPhDtOWWeB7J2JXoCCw=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.2/Auto-Search-1.0.2-macOS-arm64.zip",
+          "sha256": "bba29e4a4f0adf9e566d1df6424f185496d02d1ca5eb60b9f242d269a30119a8",
+          "size": 73282027,
+          "signature": "+4p4OPnauFnLKJ/XjHYtGz4iFjYhFXtrvQKQu7+jtW3bXdw0Cx2cfDJvszthVlVtDBbD9QuxrBQ+Q9A6WbP/Dw=="
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.1/Auto-Search-1.0.1-windows-x64.zip",
-          "sha256": "871ef45d21d387f4c0b0fb94e2c959e27ea86b12aacf1c14196fb36383a32415",
-          "size": 86112791,
-          "signature": "wqBehrW0jck49HjxkQc4sc4Y8SSmmQk0fLhBylFhWWDZxtSTwdiwWQwmet5/ZfV5E0HwlZ1gjXQvPFnqzbo5Dw=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.2/Auto-Search-1.0.2-windows-x64.zip",
+          "sha256": "5954014f20844ff2f16cb232fca63d08da13411427546fccec2b846e4004af2a",
+          "size": 84083819,
+          "signature": "+2LYtbts2IwIpjxPZ7Dqj0PSl07NrnL4bo/H5nRyO8IHzpHUWAuTHt/fzPtXUjZ2visVGf8HAE8oSv8AbVz6BQ=="
         }
       }
     }
