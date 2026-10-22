@@ -2,20 +2,20 @@
   "schema": 1,
   "channels": {
     "stable": {
-      "version": "1.0.2",
-      "notes": "Improves Windows startup, update recovery, Excel Preview performance, and Keyword Group editing and import.",
+      "version": "1.0.3",
+      "notes": "Adds secure local email attachment drag-and-drop and improves the Keyword Group table layout.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.2/Auto-Search-1.0.2-macOS-arm64.zip",
-          "sha256": "bba29e4a4f0adf9e566d1df6424f185496d02d1ca5eb60b9f242d269a30119a8",
-          "size": 73282027,
-          "signature": "+4p4OPnauFnLKJ/XjHYtGz4iFjYhFXtrvQKQu7+jtW3bXdw0Cx2cfDJvszthVlVtDBbD9QuxrBQ+Q9A6WbP/Dw=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.3/Auto-Search-1.0.3-macOS-arm64.zip",
+          "sha256": "156c2aa263f6a3c6730de577f176ad329e3f204268bb5cfdc03ef7588035a789",
+          "size": 73288863,
+          "signature": "Qya190A6RCsqt6fCqpglQC182EWo+qOmtP49o7QE8vuivBol3o+8BBCn/NHHq1T/W1KZVYomeg34cndF7bBDCg=="
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.2/Auto-Search-1.0.2-windows-x64.zip",
-          "sha256": "5954014f20844ff2f16cb232fca63d08da13411427546fccec2b846e4004af2a",
-          "size": 84083819,
-          "signature": "+2LYtbts2IwIpjxPZ7Dqj0PSl07NrnL4bo/H5nRyO8IHzpHUWAuTHt/fzPtXUjZ2visVGf8HAE8oSv8AbVz6BQ=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.3/Auto-Search-1.0.3-windows-x64.zip",
+          "sha256": "cac09af688e4eb5ee21a8bd766760594ec8124e837c39d8206e753e2aff9b06e",
+          "size": 84088510,
+          "signature": "GA4v1EUtPb19kJx5cXkIPf5fvOPZYuodRnYN4C6o/Ny8DJeSOm2KnFzQwz9nO+WKbsq+AqSGq1OBiNfxUCyuBA=="
         }
       }
     }
