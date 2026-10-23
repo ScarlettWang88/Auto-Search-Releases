@@ -2,20 +2,20 @@
   "schema": 1,
   "channels": {
     "stable": {
-      "version": "1.0.3",
-      "notes": "Adds secure local email attachment drag-and-drop and improves the Keyword Group table layout.",
+      "version": "1.0.4",
+      "notes": "Adds adjustable App text sizing, readable scan folders, and 24x Preview zoom.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.3/Auto-Search-1.0.3-macOS-arm64.zip",
-          "sha256": "156c2aa263f6a3c6730de577f176ad329e3f204268bb5cfdc03ef7588035a789",
-          "size": 73288863,
-          "signature": "Qya190A6RCsqt6fCqpglQC182EWo+qOmtP49o7QE8vuivBol3o+8BBCn/NHHq1T/W1KZVYomeg34cndF7bBDCg=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.4/Auto-Search-1.0.4-macOS-arm64.zip",
+          "sha256": "9b239cac6ba444f6b0a1324b143d9d191f6e5a285b836188fd775d4ed8fd1d52",
+          "size": 73294937,
+          "signature": "ORIj8o+DPMJWDIbf797ZTfUWxX3JV9+szJBzMXforbD0LeUOHd7SkOsGalZDeqKFNg73ZvOHC6DXecOft/iqBg=="
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.3/Auto-Search-1.0.3-windows-x64.zip",
-          "sha256": "cac09af688e4eb5ee21a8bd766760594ec8124e837c39d8206e753e2aff9b06e",
-          "size": 84088510,
-          "signature": "GA4v1EUtPb19kJx5cXkIPf5fvOPZYuodRnYN4C6o/Ny8DJeSOm2KnFzQwz9nO+WKbsq+AqSGq1OBiNfxUCyuBA=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.4/Auto-Search-1.0.4-windows-x64.zip",
+          "sha256": "02320bbc8a8ba4cdff045f5773c52e77179c83745419ce38e222854f058115f1",
+          "size": 84097264,
+          "signature": "pqn5SM8IqqGiRhlylVZu0dcgiOVioccLHHrqeITitJS/tLEZQEyAK16j2yXGarsrUhvsBxldMU8+cNhJt3KqAQ=="
         }
       }
     }
