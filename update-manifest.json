@@ -3,19 +3,19 @@
   "channels": {
     "stable": {
       "version": "1.0.4",
-      "notes": "Adds adjustable App text sizing, readable scan folders, and 24x Preview zoom.",
+      "notes": "Fixes Windows scan startup when lxml.etree cannot be imported.",
       "packages": {
         "macos-arm64": {
           "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.4/Auto-Search-1.0.4-macOS-arm64.zip",
-          "sha256": "9b239cac6ba444f6b0a1324b143d9d191f6e5a285b836188fd775d4ed8fd1d52",
-          "size": 73294937,
-          "signature": "ORIj8o+DPMJWDIbf797ZTfUWxX3JV9+szJBzMXforbD0LeUOHd7SkOsGalZDeqKFNg73ZvOHC6DXecOft/iqBg=="
+          "sha256": "2af944beda1b13560b31a7a8611bca2642b10e27a12f8df9bc100622d601a952",
+          "size": 73298115,
+          "signature": "oALgteMWqRyIK/FhgyKzy6nRUxsfukatP4JjvRJQnDcua3mQnpZLcoRySyqqz/repsA8EUEsb/h3VJUgIZP/DQ=="
         },
         "windows-x64": {
           "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.4/Auto-Search-1.0.4-windows-x64.zip",
-          "sha256": "02320bbc8a8ba4cdff045f5773c52e77179c83745419ce38e222854f058115f1",
-          "size": 84097264,
-          "signature": "pqn5SM8IqqGiRhlylVZu0dcgiOVioccLHHrqeITitJS/tLEZQEyAK16j2yXGarsrUhvsBxldMU8+cNhJt3KqAQ=="
+          "sha256": "231a1de3429f47828615344d59311898d076a25d63b5583798b012a27a784161",
+          "size": 84097290,
+          "signature": "0vryI6ch1DSbkw8NmR/3pO0I3qA6cK6UhwIVsoHhLmFM7pX6If4hrmxg4A8wzVfWQjjDK/KiSoEtoetNPEBUBg=="
         }
       }
     }
