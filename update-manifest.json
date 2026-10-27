@@ -4,19 +4,19 @@
     "stable": {
       "version": "1.0.6",
       "revision": 1,
-      "notes": "Requires a one-time manual install from 1.0.5 or earlier after the update signing key rotation; also adds unified native spreadsheet Preview and window fixes.",
+      "notes": "Auto-Search 1.0.6 is available. This compatibility update supports existing installations and upgrades them to the new update verification key.",
       "packages": {
         "macos-arm64": {
           "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.6/Auto-Search-1.0.6-macOS-arm64.zip",
-          "sha256": "661d2baabbf8e1b5a50bf62d78593551ddfb9814bb420a459c121d2b5bf66a37",
-          "size": 72556306,
-          "signature": "J3iH/4ptP8DMyRs8bELcmHPrqJAjIHIhSYYgTD5tCb4igDOokORB3zfdQgK9je8JPorTbxHVxxypKtaJDvxpAg=="
+          "sha256": "063c99e8f438d899370aca73eba77ae31b2a394767ec53a2a7df462d447f6afd",
+          "size": 72555731,
+          "signature": "hWLiOKI9EmJ1gGcl46EXyM2ZsZrSFr1cTBGwdn4WJuYqkD+4PFBAyJ8EoJZcj5tZnZgb2w5/Fq6K7cJwcBaLDQ=="
         },
         "windows-x64": {
           "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.6/Auto-Search-1.0.6-windows-x64.zip",
-          "sha256": "607714d790244d90112dd6291a7988192c955cecda17c61b0c6def9b899172a5",
-          "size": 83459291,
-          "signature": "BIuXQOj85TR6pPRwboqOMAS3Y77W2wFZL6V1NACS1psOfxay5ZhfIlWpNcur2K1yAXOKYpHazT2dyg1dmiNxCw=="
+          "sha256": "9e2ed579dab9400e986be78242c17a2b20953d866f03dcdfa42044624e68fe5c",
+          "size": 83459982,
+          "signature": "aMKT9QU61W+Kvvz/K/4966OjFWiSJ16nwQv5MFhWdqKiSsTlanzaYvCZ9T7hEH64E6N4voZvVE1XjvIPAQLkCA=="
         }
       }
     }
