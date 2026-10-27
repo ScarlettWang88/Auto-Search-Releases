@@ -2,21 +2,21 @@
   "schema": 1,
   "channels": {
     "stable": {
-      "version": "1.0.5",
+      "version": "1.0.6",
       "revision": 1,
-      "notes": "Improves Excel Preview responsiveness, offline defaults, output safety, and update reliability.",
+      "notes": "Requires a one-time manual install from 1.0.5 or earlier after the update signing key rotation; also adds unified native spreadsheet Preview and window fixes.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.5/Auto-Search-1.0.5-macOS-arm64.zip",
-          "sha256": "b8f891e343aa7c40a45b1761728c5cacbd735316c4b93c97f6815504e6cb1f52",
-          "size": 72551817,
-          "signature": "OWA+EMXYAkPRqUf8aDXhnNzKQWf7ZiXQY+3L7sIMkkqWWoWbQOjWMTXORZsJAarIpbbyuEkkOrwqPFYanzI1AA=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.6/Auto-Search-1.0.6-macOS-arm64.zip",
+          "sha256": "661d2baabbf8e1b5a50bf62d78593551ddfb9814bb420a459c121d2b5bf66a37",
+          "size": 72556306,
+          "signature": "J3iH/4ptP8DMyRs8bELcmHPrqJAjIHIhSYYgTD5tCb4igDOokORB3zfdQgK9je8JPorTbxHVxxypKtaJDvxpAg=="
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.5/Auto-Search-1.0.5-windows-x64.zip",
-          "sha256": "989ef711be4e0c3c9fc912eb0ca3a68623ea2b23ad62cc69ab310fade54ff908",
-          "size": 83455304,
-          "signature": "opyNvcPB3wdNOzDuFvqA4br4GTWESKXaWoym0U7Ssk7kIIKtDgDAxdpnF4b76n441xYlA2Rv5FOlgRcwBXhADw=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.6/Auto-Search-1.0.6-windows-x64.zip",
+          "sha256": "607714d790244d90112dd6291a7988192c955cecda17c61b0c6def9b899172a5",
+          "size": 83459291,
+          "signature": "BIuXQOj85TR6pPRwboqOMAS3Y77W2wFZL6V1NACS1psOfxay5ZhfIlWpNcur2K1yAXOKYpHazT2dyg1dmiNxCw=="
         }
       }
     }
