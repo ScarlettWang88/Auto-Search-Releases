@@ -1,0 +1,87 @@
+name: Sign 1.0.6 compatibility manifest with legacy key
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sign-legacy-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Download the published 1.0.6 assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir release
+          gh release download v1.0.6 --dir release \
+            --pattern 'Auto-Search-1.0.6-*.zip' \
+            --pattern update-manifest.json
+
+      - name: Sign the compatibility manifest with the legacy key
+        env:
+          UPDATE_SIGNING_PRIVATE_KEY: ${{ secrets.UPDATE_SIGNING_PRIVATE_KEY }}
+        run: |
+          node <<'NODE'
+          const crypto = require("crypto");
+          const fs = require("fs");
+          const path = require("path");
+
+          const expectedPublicKey = "EzmOy1JG5kHv81CtMODvtAWh7d6HZV5jBKbGbcRIH0E=";
+          const privateKeyPem = process.env.UPDATE_SIGNING_PRIVATE_KEY || "";
+          if (!privateKeyPem) throw new Error("The legacy signing secret is missing.");
+          const privateKey = crypto.createPrivateKey(privateKeyPem);
+          const publicDer = crypto.createPublicKey(privateKey).export({
+            format: "der",
+            type: "spki",
+          });
+          const rawPublicKey = publicDer.subarray(publicDer.length - 32).toString("base64");
+          if (rawPublicKey !== expectedPublicKey) {
+            throw new Error("The stored private key does not match the legacy Auto-Search public key.");
+          }
+
+          const manifestPath = path.join("release", "update-manifest.json");
+          const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+          const release = manifest.channels && manifest.channels.stable;
+          if (manifest.schema !== 1 || !release || release.version !== "1.0.6") {
+            throw new Error("The published manifest is not Auto-Search 1.0.6 stable.");
+          }
+
+          for (const platform of ["macos-arm64", "windows-x64"]) {
+            const item = release.packages && release.packages[platform];
+            if (!item) throw new Error(`The ${platform} package metadata is missing.`);
+            const archivePath = path.join("release", `Auto-Search-1.0.6-${platform}.zip`);
+            const archive = fs.readFileSync(archivePath);
+            const sha256 = crypto.createHash("sha256").update(archive).digest("hex");
+            if (sha256 !== item.sha256 || archive.length !== item.size) {
+              throw new Error(`The ${platform} release asset does not match the manifest.`);
+            }
+            const payload = Buffer.from(
+              `1\n${release.version}\n${platform}\n${item.sha256}\n${item.size}\n${item.url}\n`,
+              "utf8",
+            );
+            item.signature = crypto.sign(null, payload, privateKey).toString("base64");
+            delete item.revision_signature;
+            if (!crypto.verify(null, payload, crypto.createPublicKey(privateKey), Buffer.from(item.signature, "base64"))) {
+              throw new Error(`The ${platform} compatibility signature could not be verified.`);
+            }
+          }
+
+          release.notes = "Auto-Search 1.0.6 is available. This compatibility update supports existing installations and upgrades them to the new update verification key.";
+          fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + "\n");
+          NODE
+
+      - name: Publish the legacy-compatible manifest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload v1.0.6 release/update-manifest.json --clobber
+          cp release/update-manifest.json update-manifest.json
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add update-manifest.json
+          git commit -m "Publish legacy-compatible update v1.0.6"
+          git push
