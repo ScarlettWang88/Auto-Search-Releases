@@ -50,10 +50,14 @@ jobs:
             throw new Error("The published manifest is not Auto-Search 1.0.6 stable.");
           }
 
-          for (const platform of ["macos-arm64", "windows-x64"]) {
+          const archiveNames = {
+            "macos-arm64": "Auto-Search-1.0.6-macOS-arm64.zip",
+            "windows-x64": "Auto-Search-1.0.6-windows-x64.zip",
+          };
+          for (const platform of Object.keys(archiveNames)) {
             const item = release.packages && release.packages[platform];
             if (!item) throw new Error(`The ${platform} package metadata is missing.`);
-            const archivePath = path.join("release", `Auto-Search-1.0.6-${platform}.zip`);
+            const archivePath = path.join("release", archiveNames[platform]);
             const archive = fs.readFileSync(archivePath);
             const sha256 = crypto.createHash("sha256").update(archive).digest("hex");
             if (sha256 !== item.sha256 || archive.length !== item.size) {
