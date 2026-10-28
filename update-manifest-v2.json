@@ -1,0 +1,36 @@
+{
+  "schema": 2,
+  "channels": {
+    "stable": {
+      "version": "1.0.10",
+      "revision": 1,
+      "notes": "Adds a permanent legacy update bridge and a separate multi-signature long-term update feed.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.10/Auto-Search-1.0.10-macOS-arm64.zip",
+          "sha256": "fc45860bd07a9bfeff4dca7bc9ceeccbf872dc444330fae65bf9ea7db5056dfd",
+          "size": 72586149,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "SSS0oOhDyk/1t2gXEfRRpX2ac/1sfa9oq/K90xqyklETOmKeCZ7OiK5NxAPWYmBnL3y4OroPV4Hg5V7Frz4hCA=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.10/Auto-Search-1.0.10-windows-x64.zip",
+          "sha256": "21f06cefc6183f0c3c47208e67b05a84bedb6983b291a3f55191e34c1c76c0b9",
+          "size": 83579119,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "io6pGNM3oLN/ciEwl+VfWW79QXKwHzTMbd34eGif1tjHOivYLzG59o+bTD52dyivOk2n2cqLpWbpRKsvr21qAQ=="
+            }
+          ]
+        }
+      }
+    }
+  }
+}
