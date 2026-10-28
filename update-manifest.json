@@ -2,21 +2,21 @@
   "schema": 1,
   "channels": {
     "stable": {
-      "version": "1.0.7",
+      "version": "1.0.8",
       "revision": 1,
-      "notes": "Adds 305% match focus, instant cached spreadsheet switching, edge panel controls, and single-instance operation.",
+      "notes": "Restores compact Preview tabs, centered thumbnails, readable Matched Words, sharp high-zoom rendering, configurable updates, and unclipped keyword labels.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.7/Auto-Search-1.0.7-macOS-arm64.zip",
-          "sha256": "19df8793c2e94eb209ea792abde50ce042d3e8f73f2aaf900ff9e5097d939c83",
-          "size": 72565699,
-          "signature": "upcyq6nbqLBM9pfy1JElEBVLVfzk1iyqxcN6dEcshLGpGX0Mi8Agz9UDr/kv7hPjKjYG+kFXJU261ifdYA+LDg=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.8/Auto-Search-1.0.8-macOS-arm64.zip",
+          "sha256": "6f89d2f9b3c25d60dc7db1f2be880ebad22ea3d35fbdbf0d958c31845e73aa61",
+          "size": 72577961,
+          "signature": "BRfRWl2jQ/bTrm8jNOAwpxYGnvcokFNxsd011rA2BZz4aY4J8U13EOqtXpvvEA1tQyMJP0QwIOCgk7yLvKs4Ag=="
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.7/Auto-Search-1.0.7-windows-x64.zip",
-          "sha256": "1eae26d58b833a88df66f3a4e596ff39e82a850a364bdc650104a56e69980711",
-          "size": 83560174,
-          "signature": "Drv4LQxWIDS3cLvBVCrDR+oSvl6Xbrqw4RYHwukQ0ZUD/r6STVLMdzEYoZejvZpAI35MoGwGsq2iZw9N+2/BBg=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.8/Auto-Search-1.0.8-windows-x64.zip",
+          "sha256": "c845e824b0cc47f731adb57d1ac5525346ad45e5580e56c965c7bf3d45b8404b",
+          "size": 83572356,
+          "signature": "03ySf59FarAqQp9HFGDOitWWLFmAcuxgVKQ1FEqLAwS/6HEGaQf8NrxYeGFAyoHnf0w63DaffpVCKi5knCvCCQ=="
         }
       }
     }
