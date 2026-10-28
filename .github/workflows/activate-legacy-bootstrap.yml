@@ -1,0 +1,120 @@
+name: Activate permanent legacy bootstrap
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirmation:
+        description: Type ACTIVATE-1.0.10-LEGACY-BOOTSTRAP after the migration window
+        required: true
+  schedule:
+    # 2026-11-28 16:30 Australia/Melbourne. Later annual runs are harmless no-ops.
+    - cron: "30 5 28 11 *"
+
+permissions:
+  contents: write
+
+jobs:
+  activate:
+    if: ${{ github.event_name == 'schedule' || inputs.confirmation == 'ACTIVATE-1.0.10-LEGACY-BOOTSTRAP' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Download and authenticate the 1.0.10 bridge assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir release
+          gh release download v1.0.10 --dir release \
+            --pattern 'Auto-Search-1.0.10-*.zip' \
+            --pattern update-manifest-v2.json
+      - name: Build the permanent legacy-key bootstrap feed
+        env:
+          LEGACY_UPDATE_SIGNING_PRIVATE_KEY: ${{ secrets.UPDATE_SIGNING_PRIVATE_KEY }}
+        run: |
+          node <<'NODE'
+          const crypto = require("crypto");
+          const fs = require("fs");
+          const path = require("path");
+
+          const legacyPublic = "EzmOy1JG5kHv81CtMODvtAWh7d6HZV5jBKbGbcRIH0E=";
+          const currentPublic = "SD79PtWcxSLoxY4nZOU/GvvuvRBTM94rbYkfjhmA9cg=";
+          const privatePem = process.env.LEGACY_UPDATE_SIGNING_PRIVATE_KEY || "";
+          if (!privatePem) throw new Error("The legacy signing secret is missing.");
+          const privateKey = crypto.createPrivateKey(privatePem);
+          const publicDer = crypto.createPublicKey(privateKey).export({format: "der", type: "spki"});
+          if (publicDer.subarray(publicDer.length - 32).toString("base64") !== legacyPublic) {
+            throw new Error("The stored private key does not match the legacy public key.");
+          }
+
+          const source = JSON.parse(fs.readFileSync("release/update-manifest-v2.json", "utf8"));
+          const stable = source.channels && source.channels.stable;
+          if (source.schema !== 2 || !stable || stable.version !== "1.0.10" || stable.revision !== 1) {
+            throw new Error("The signed bridge manifest must be 1.0.10 revision 1 schema 2.");
+          }
+          const currentKey = crypto.createPublicKey({
+            key: Buffer.concat([
+              Buffer.from("302a300506032b6570032100", "hex"),
+              Buffer.from(currentPublic, "base64"),
+            ]),
+            format: "der",
+            type: "spki",
+          });
+          const names = {
+            "macos-arm64": "Auto-Search-1.0.10-macOS-arm64.zip",
+            "windows-x64": "Auto-Search-1.0.10-windows-x64.zip",
+          };
+          const packages = {};
+          for (const [platform, name] of Object.entries(names)) {
+            const item = stable.packages && stable.packages[platform];
+            if (!item) throw new Error(`Missing ${platform} metadata.`);
+            const archive = fs.readFileSync(path.join("release", name));
+            const sha256 = crypto.createHash("sha256").update(archive).digest("hex");
+            if (sha256 !== item.sha256 || archive.length !== item.size) {
+              throw new Error(`${platform} does not match the signed bridge manifest.`);
+            }
+            const v2Payload = Buffer.from(
+              `3\n${stable.version}\n${stable.revision}\n${platform}\n${item.sha256}\n${item.size}\n${item.url}\n`,
+            );
+            const currentSignature = (item.signatures || []).find(
+              value => value.key_id === "current-2026-10" && value.algorithm === "Ed25519",
+            );
+            if (!currentSignature || !crypto.verify(
+              null, v2Payload, currentKey, Buffer.from(currentSignature.signature, "base64")
+            )) throw new Error(`${platform} current-key signature is invalid.`);
+
+            const legacyPayload = Buffer.from(
+              `1\n${stable.version}\n${platform}\n${item.sha256}\n${item.size}\n${item.url}\n`,
+            );
+            packages[platform] = {
+              url: item.url,
+              sha256: item.sha256,
+              size: item.size,
+              signature: crypto.sign(null, legacyPayload, privateKey).toString("base64"),
+            };
+          }
+          const output = {
+            schema: 1,
+            channels: {stable: {
+              version: "1.0.10",
+              revision: 1,
+              notes: "Permanent compatibility bridge for Auto-Search 1.0.5 and earlier. After installation, the App moves to the current signed update feed.",
+              packages,
+            }},
+          };
+          fs.writeFileSync("release/legacy-bootstrap-manifest.json", JSON.stringify(output, null, 2) + "\n");
+          NODE
+      - name: Publish the permanent bootstrap last
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload v1.0.10 release/legacy-bootstrap-manifest.json --clobber
+          if cmp -s release/legacy-bootstrap-manifest.json update-manifest.json; then
+            echo "The permanent legacy bootstrap is already active."
+            exit 0
+          fi
+          cp release/legacy-bootstrap-manifest.json update-manifest.json
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add update-manifest.json
+          git commit -m "Activate permanent legacy bootstrap v1.0.10"
+          git push
