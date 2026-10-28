@@ -4,19 +4,19 @@
     "stable": {
       "version": "1.0.10",
       "revision": 1,
-      "notes": "Adds a permanent legacy update bridge and a separate multi-signature long-term update feed.",
+      "notes": "Permanent compatibility bridge for Auto-Search 1.0.5 and earlier. After installation, the App moves to the current signed update feed.",
       "packages": {
         "macos-arm64": {
           "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.10/Auto-Search-1.0.10-macOS-arm64.zip",
           "sha256": "fc45860bd07a9bfeff4dca7bc9ceeccbf872dc444330fae65bf9ea7db5056dfd",
           "size": 72586149,
-          "signature": "MDAI6HTxy4NWMAGIGVuXm7/2UgD6GOMpegm2rQ/S15cM6g5yAjzrs+gnyUFAREVVjVFkDNYIFV6x9jPb6DznCg=="
+          "signature": "kdGHl09/gwM7asFbMHgL+O34Z91CxgKKa6yvfXZdh6mPBLyfBze1wEM1TYZL3t+jv0vOMyPE0sFHsQTblxKJBQ=="
         },
         "windows-x64": {
           "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.10/Auto-Search-1.0.10-windows-x64.zip",
           "sha256": "21f06cefc6183f0c3c47208e67b05a84bedb6983b291a3f55191e34c1c76c0b9",
           "size": 83579119,
-          "signature": "eke24SnUJ5Xx4necNW/5HaYVO7QQNsklSYSg/AC8nqiXy3kp21M49xG6DhzfJwAF/kaW9Op3c+jV7L5kyw/fDw=="
+          "signature": "FxtwOmr2K6PuxhLIF/Et6rVqEkk4ZBBKMD2LqhRFVXRYsjJwcrQchlVhNwFkRPz7ih6LZQntxaX2mJnsS25/AQ=="
         }
       }
     }
