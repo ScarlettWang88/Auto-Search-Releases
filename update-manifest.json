@@ -2,21 +2,21 @@
   "schema": 1,
   "channels": {
     "stable": {
-      "version": "1.0.8",
+      "version": "1.0.9",
       "revision": 1,
-      "notes": "Restores compact Preview tabs, centered thumbnails, readable Matched Words, sharp high-zoom rendering, configurable updates, and unclipped keyword labels.",
+      "notes": "Fixes Preview proportions and edge controls, adds verified version rollback, and clarifies automatic update notification examples.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.8/Auto-Search-1.0.8-macOS-arm64.zip",
-          "sha256": "6f89d2f9b3c25d60dc7db1f2be880ebad22ea3d35fbdbf0d958c31845e73aa61",
-          "size": 72577961,
-          "signature": "BRfRWl2jQ/bTrm8jNOAwpxYGnvcokFNxsd011rA2BZz4aY4J8U13EOqtXpvvEA1tQyMJP0QwIOCgk7yLvKs4Ag=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.9/Auto-Search-1.0.9-macOS-arm64.zip",
+          "sha256": "fa1f4186b47aedb637d5684cfae6184adddd58970e83342528c2bbee887c3fa9",
+          "size": 72583294,
+          "signature": "NpdquDO+xsSrZBrkQ/i8bC3JMw61C8NO48e6cOZyOj/o3f2LFCarB3Q+uAGbTUZXUX/O71k3MQNQmXrqDZgnDw=="
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.8/Auto-Search-1.0.8-windows-x64.zip",
-          "sha256": "c845e824b0cc47f731adb57d1ac5525346ad45e5580e56c965c7bf3d45b8404b",
-          "size": 83572356,
-          "signature": "03ySf59FarAqQp9HFGDOitWWLFmAcuxgVKQ1FEqLAwS/6HEGaQf8NrxYeGFAyoHnf0w63DaffpVCKi5knCvCCQ=="
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.9/Auto-Search-1.0.9-windows-x64.zip",
+          "sha256": "ecfa47c5e240f1b3d5be7c22bd516405364a604e63a2760fe7a1f234fb498bff",
+          "size": 83576087,
+          "signature": "VlNNBB5OtD7P5PtfrKm/USWXls4enjXfPiF23xGTt1l9Zsn1+DrLz3OypHTU+XHoV3+eq+pkvoQFec1UwH+xDg=="
         }
       }
     }
