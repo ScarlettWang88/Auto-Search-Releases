@@ -3,20 +3,22 @@
   "channels": {
     "stable": {
       "version": "1.0.9",
-      "revision": 1,
-      "notes": "Fixes Preview proportions and edge controls, adds verified version rollback, and clarifies automatic update notification examples.",
+      "revision": 2,
+      "notes": "Fixes the frozen update-signature runtime and enforces real Ed25519 verification in every release package.",
       "packages": {
         "macos-arm64": {
           "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.9/Auto-Search-1.0.9-macOS-arm64.zip",
-          "sha256": "fa1f4186b47aedb637d5684cfae6184adddd58970e83342528c2bbee887c3fa9",
-          "size": 72583294,
-          "signature": "NpdquDO+xsSrZBrkQ/i8bC3JMw61C8NO48e6cOZyOj/o3f2LFCarB3Q+uAGbTUZXUX/O71k3MQNQmXrqDZgnDw=="
+          "sha256": "0892efd59b3883ccf38b82a6d1f9e2963f74ff4dc31686e5cc3e10792ecd81fa",
+          "size": 72584496,
+          "signature": "ra8oe8EXI34V4f1bCj3J7aEnm533IJCFJeDyQ6hZJgRwoDQ5n9hB9C9q0EUfBFb3eX9To1+Q1qnfistfBmaVBg==",
+          "revision_signature": "18Hh9lHuGTzJCk3hnji17kS/yx6SOsz3O2g7aTYNMvP+wXWpZBD4Z6y4ygw6axQmkE3H7jcoLoG3Gm/WcFOqBQ=="
         },
         "windows-x64": {
           "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.9/Auto-Search-1.0.9-windows-x64.zip",
-          "sha256": "ecfa47c5e240f1b3d5be7c22bd516405364a604e63a2760fe7a1f234fb498bff",
-          "size": 83576087,
-          "signature": "VlNNBB5OtD7P5PtfrKm/USWXls4enjXfPiF23xGTt1l9Zsn1+DrLz3OypHTU+XHoV3+eq+pkvoQFec1UwH+xDg=="
+          "sha256": "4132db54831ce21d7dd6515aefac59ddab6512755736d45df35b49f290de63ba",
+          "size": 83577532,
+          "signature": "J3giLHZbuofXqgZeV6xyrl9FDyChDWOL3y+knZPz0qdcSRbgXWM1W+67szYnxZ1/2ZxrPIUYTry6agBN/ZNuDA==",
+          "revision_signature": "Uf4LlbWD2E0bRF3v37Z1N9VUFQ4YQ4rh7sS5xmAwbawbTjai+0WC+kDWaI0V4DXQ04Pv5/xJUx5XEKh4+qKaDQ=="
         }
       }
     }
