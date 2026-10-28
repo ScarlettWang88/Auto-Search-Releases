@@ -6,16 +6,13 @@ on:
       confirmation:
         description: Type ACTIVATE-1.0.10-LEGACY-BOOTSTRAP after the migration window
         required: true
-  schedule:
-    # 2026-11-28 16:30 Australia/Melbourne. Later annual runs are harmless no-ops.
-    - cron: "30 5 28 11 *"
 
 permissions:
   contents: write
 
 jobs:
   activate:
-    if: ${{ github.event_name == 'schedule' || inputs.confirmation == 'ACTIVATE-1.0.10-LEGACY-BOOTSTRAP' }}
+    if: ${{ inputs.confirmation == 'ACTIVATE-1.0.10-LEGACY-BOOTSTRAP' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
