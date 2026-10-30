@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.0.11",
+      "revision": 1,
+      "notes": "Improves native Excel Preview performance, validation, navigation, and cleanup.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.11/Auto-Search-1.0.11-macOS-arm64.zip",
+          "sha256": "47ae6abbbb0a155a1e31eadf45b719d8bf8a098abc2aeadb1735798cf7b0f2b9",
+          "size": 76393632,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "iwNAQIoFA7d33VOpOG+ByD9wV1Lm6AZCl81/ZDaFeiKkgSku2Nv3zJOZTltZVy03+2H1vLlxUVZyJZ4olJfFCQ=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.11/Auto-Search-1.0.11-windows-x64.zip",
+          "sha256": "5e940a97b1b4ca350c4c29a4093eacc48164a2f9d4c7d1fe5c0abb76da63481a",
+          "size": 89942951,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "Rnv5mTQZP5kgwGfkMcl1mqlwsrSSWl9Ta3C0c3/A6WvuEitovBz4usR/VDvP++IUOcA/I1rAVcCIl6isJ7KvBA=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.0.10",
       "revision": 1,
       "notes": "Adds a permanent legacy update bridge and a separate multi-signature long-term update feed.",
