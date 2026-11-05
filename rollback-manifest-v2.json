@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.0.14",
+      "revision": 1,
+      "notes": "Refines Preview controls, spreadsheet hand-off, output selection, and Drop Bar access.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.14/Auto-Search-1.0.14-macOS-arm64.zip",
+          "sha256": "84e396f52d754ef3cd5b99c21bf63f1be2baf883b150abf8d18b28cf78453995",
+          "size": 76415962,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "Xp6i7nbIijQuplQdeo9iNLB/safS+vPNeBdH/vjZJ+VS6B06bElAaPcxC4bCaE9zG89F3Yx+sGTpvff8YLMADg=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.0.14/Auto-Search-1.0.14-windows-x64.zip",
+          "sha256": "7ade73dcac8aee0e0878a57bc3229a6792b4feddd2442a1caf187d36c3a3cb79",
+          "size": 89895961,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "MPnwIkBXbPm15X82D1PCrVwlavGtYYHloivSRLgAOY7gy1a0Sk21NIchShOPMJtDi5k1IbDVI24g7At/HjAoBg=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.0.13",
       "revision": 1,
       "notes": "Adds a persistent workspace menu, icon Preview controls, and stable centred thumbnails.",
