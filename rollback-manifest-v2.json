@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.1.0",
+      "revision": 1,
+      "notes": "Uses a stable Open in Excel hand-off with maximised Windows Excel and complete 1.0 release history.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.0/Auto-Search-1.1.0-macOS-arm64.zip",
+          "sha256": "de6cd04bc56708a977b673c86624c6267ad4e145244c1714ed981dbeb464c8cf",
+          "size": 76416289,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "U2DFX71g/yC/NDm9t+utu+FCLiPejFNTK6YZhMYIA6aaRu8fPEPTM/07uAB23MFVOsqvSdQPsteUCdnGNpLNAQ=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.0/Auto-Search-1.1.0-windows-x64.zip",
+          "sha256": "c6231dc4e02c9d794b39e0481dc69fca17e937880752ef09892272c788269706",
+          "size": 89894581,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "8crHmhUxk2sWKbgEiUD9LA6j8Xrzc7H3xhMWFImn/2xWFslWpJVfMTK+T+7lzhSh4v96zm3oeqYy1ZYNWacUDg=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.0.15",
       "revision": 1,
       "notes": "Restores native Excel PDF Preview with exact highlights, cached switching, and improved layout consistency.",
