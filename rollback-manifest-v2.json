@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.1.3",
+      "revision": 1,
+      "notes": "Fixes Windows Excel PDF Preview COM export and adds replaceable XLSX Keyword Groups.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.3/Auto-Search-1.1.3-macOS-arm64.zip",
+          "sha256": "bee79cb12e9100523e2eeaec774dd4c1cb33f993469dc78beb8dfc0f622d6a64",
+          "size": 76418046,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "OLV4XUwjuJ9Z7G5e4GNX18eggR8VTZM9NwJ+/LaOEacZSbfeMOGEYig7pLjELPw2snUWa5ybeF/taWBTSa7hAw=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.3/Auto-Search-1.1.3-windows-x64.zip",
+          "sha256": "f601279df0658c7671284fe61bd999ef728d72ca676776b1a32c75813b07ba88",
+          "size": 89918377,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "nJMZ/x/MPw3NuzegUfPzXGqyBa0gjjLWUSxJpCwIU88gFqvcKLrcBj/dmimva/dhQVt0vynKnOjFhuYHAZngBA=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.1.2",
       "revision": 1,
       "notes": "Restores native Excel PDF Preview with cached switching and exact-word highlights on Windows.",
