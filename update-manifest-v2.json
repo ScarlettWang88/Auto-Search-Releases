@@ -2,31 +2,31 @@
   "schema": 2,
   "channels": {
     "stable": {
-      "version": "1.1.1",
+      "version": "1.1.2",
       "revision": 1,
-      "notes": "Adds keyword-coloured cell fills to marked spreadsheet outputs while preserving exact-match comments and source files.",
+      "notes": "Restores native Excel PDF Preview with cached switching and exact-word highlights on Windows.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.1/Auto-Search-1.1.1-macOS-arm64.zip",
-          "sha256": "b94f82222b33b81db4422899c79ad302f72b4cae7baaf9bb32d5e5833e2ab578",
-          "size": 76418138,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.2/Auto-Search-1.1.2-macOS-arm64.zip",
+          "sha256": "f65109a2d24cbbd32b00dc0926d41ed8b964bc5282ee8d30d119a98d45ace02f",
+          "size": 76418766,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "DbuVAAFyRSgfdKEZYGfEfAgCtnly3/0yFn1SCGtm69e7MGL58+6U+BNfY4QBthhnwxmtTb++g3uVF8lSFWcmDA=="
+              "signature": "Smy7T3LvTDYuGSD4LqkDGhZV2AmfGN4V5NXN1JaTF4eb3n8dZoB1jUHOni/0l8W48Nb9WHMn76q5IJ35r594AQ=="
             }
           ]
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.1/Auto-Search-1.1.1-windows-x64.zip",
-          "sha256": "5ef17a00b553d97a6323624bec966b2f7af113df77f2871516bc38d176d4b596",
-          "size": 89897065,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.2/Auto-Search-1.1.2-windows-x64.zip",
+          "sha256": "fce0d39726f07235c67d01080c0ca28f189725ac281e3b5c7a5fc20247edd6c0",
+          "size": 89897797,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "3ucJR1OSELR4xEBzEPtPlZ5FS7uUbYS5Q1oBzHQiww2onohc6shM4dGpI/mRTucDvHDhjzLZfqoHcYYHqrsgBg=="
+              "signature": "uirZ8cVEhRUyZgNUO739xSe7PExODVbWOGmW5fqTVLFwTVg2WhZ1Rw1Q8bcC0Wyg0cAVNlcQVuJgahOvqwMgBQ=="
             }
           ]
         }
