@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.1.5",
+      "revision": 1,
+      "notes": "Refines Drop Bar feedback, Preferences safety, spreadsheet locations, and Preview navigation icons.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.5/Auto-Search-1.1.5-macOS-arm64.zip",
+          "sha256": "f0b48c1dc532e45eb24d1e0705aeafbd4099b638fb317d2325770458c4fa310d",
+          "size": 76428369,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "X5ecjrsBzz5Dl6YxyBRg8gysD/fTXNMP8rHu4Ejq6tX4EZ6YrlZUw2kLw/Ht+9BwamNhidJVHTvuY0WFXrjKDA=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.5/Auto-Search-1.1.5-windows-x64.zip",
+          "sha256": "d5663fde6cf2dd12796d1946861a479cb14cd712d3ae93029aef59ff882368e6",
+          "size": 89928795,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "NA5vJ5NCQi1z1FmIO0J/r9EnA9wogpvD6fEjacLGo3oCpmkaraLUvmwi4mIqh+9IM3Pc7QhBZbeUxYDjTN4SCw=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.1.4",
       "revision": 1,
       "notes": "Adds configurable Preview navigation, Excel Keyword Group export, and a lighter app-icon Drop Bar.",
