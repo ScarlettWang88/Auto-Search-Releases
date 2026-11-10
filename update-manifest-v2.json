@@ -2,31 +2,31 @@
   "schema": 2,
   "channels": {
     "stable": {
-      "version": "1.1.3",
+      "version": "1.1.4",
       "revision": 1,
-      "notes": "Fixes Windows Excel PDF Preview COM export and adds replaceable XLSX Keyword Groups.",
+      "notes": "Adds configurable Preview navigation, Excel Keyword Group export, and a lighter app-icon Drop Bar.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.3/Auto-Search-1.1.3-macOS-arm64.zip",
-          "sha256": "bee79cb12e9100523e2eeaec774dd4c1cb33f993469dc78beb8dfc0f622d6a64",
-          "size": 76418046,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.4/Auto-Search-1.1.4-macOS-arm64.zip",
+          "sha256": "73732b19ef62a16b28c8f50a9a368607d3eb69118a48a542b6c8c8954e8e7bec",
+          "size": 76426621,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "OLV4XUwjuJ9Z7G5e4GNX18eggR8VTZM9NwJ+/LaOEacZSbfeMOGEYig7pLjELPw2snUWa5ybeF/taWBTSa7hAw=="
+              "signature": "7oIK4Rcumq79rSTGNnqLDqAQLbwPdxzoZRqvlIKLv0t1wa+/wOqvcCCmiiyN9zTmIHIDMCp01DM19uCWHNr3DA=="
             }
           ]
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.3/Auto-Search-1.1.3-windows-x64.zip",
-          "sha256": "f601279df0658c7671284fe61bd999ef728d72ca676776b1a32c75813b07ba88",
-          "size": 89918377,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.4/Auto-Search-1.1.4-windows-x64.zip",
+          "sha256": "e249fd5472528285af0d7f8954d7de9f3a1511375eb0799cb3432742af2a7f1d",
+          "size": 89924428,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "nJMZ/x/MPw3NuzegUfPzXGqyBa0gjjLWUSxJpCwIU88gFqvcKLrcBj/dmimva/dhQVt0vynKnOjFhuYHAZngBA=="
+              "signature": "3cdQYrRxAFPo8pgXuVhbHj8JkRSGmt8g3yj/pa8s1U4f3k74+vtdlOhPHO0xVGqmQepHNye0MiWy3OCW9hdEBQ=="
             }
           ]
         }
