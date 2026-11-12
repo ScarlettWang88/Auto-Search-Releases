@@ -2,31 +2,31 @@
   "schema": 2,
   "channels": {
     "stable": {
-      "version": "1.1.8",
+      "version": "1.1.9",
       "revision": 1,
-      "notes": "Adds Outlook email drag-in, offline EML PDF Preview, and visible actionable email processing failures.",
+      "notes": "Fixes Outlook EML-content messages delivered with an MSG file name.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.8/Auto-Search-1.1.8-macOS-arm64.zip",
-          "sha256": "93e7187bf25fe7d82daf31221878284275f71eeb220464f1f8fce379134e2dc2",
-          "size": 76836723,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.9/Auto-Search-1.1.9-macOS-arm64.zip",
+          "sha256": "926aab06f892dd81a7b43c1793bc2d27982a69e0270e43cf0b310a679f3ff858",
+          "size": 76838490,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "lHPhQUgowdmMW4xzqkmwP1BCaGDHzgIZZEVIG+xbcD09i/npaVGJv4+Vmtm/uSXterNebvy6lPSIlq6ewJrIAA=="
+              "signature": "WWkUozyOkHcBtDDheNBl+W+a1+59QbAOPTb5u0Dl+6/OaiYUX8QsZN1algogBJIe6rnYw0BKMQZRiQMcyxYUCg=="
             }
           ]
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.8/Auto-Search-1.1.8-windows-x64.zip",
-          "sha256": "7d3b191274cc2e41f55bc375cc4851e96c9e9838bc9918a0bdeca1daa0a9b673",
-          "size": 90239644,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.9/Auto-Search-1.1.9-windows-x64.zip",
+          "sha256": "2b6de7ac9490a6cad5fa0756d28a0820f803049bb59a5dae5cb2c48d820b9c38",
+          "size": 90240345,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "3gae1Sld6MRy9IwUQo9RhAjdlgTVJzA9fXP/gWvCDqp7cB9paQxTCsiGbv7l4SSABUVl/2UQR9qseeva6UxeDw=="
+              "signature": "SBQ2MWWDewGLBKlIcrzupbuQ4544v/GqIwjTqrd/hiZMemz561ApRRO/77U+Lp4eBAAGHePbvhFbINCB/lJECg=="
             }
           ]
         }

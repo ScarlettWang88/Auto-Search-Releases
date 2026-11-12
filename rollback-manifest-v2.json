@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.1.9",
+      "revision": 1,
+      "notes": "Fixes Outlook EML-content messages delivered with an MSG file name.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.9/Auto-Search-1.1.9-macOS-arm64.zip",
+          "sha256": "926aab06f892dd81a7b43c1793bc2d27982a69e0270e43cf0b310a679f3ff858",
+          "size": 76838490,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "WWkUozyOkHcBtDDheNBl+W+a1+59QbAOPTb5u0Dl+6/OaiYUX8QsZN1algogBJIe6rnYw0BKMQZRiQMcyxYUCg=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.9/Auto-Search-1.1.9-windows-x64.zip",
+          "sha256": "2b6de7ac9490a6cad5fa0756d28a0820f803049bb59a5dae5cb2c48d820b9c38",
+          "size": 90240345,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "SBQ2MWWDewGLBKlIcrzupbuQ4544v/GqIwjTqrd/hiZMemz561ApRRO/77U+Lp4eBAAGHePbvhFbINCB/lJECg=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.1.8",
       "revision": 1,
       "notes": "Adds Outlook email drag-in, offline EML PDF Preview, and visible actionable email processing failures.",
