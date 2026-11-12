@@ -2,31 +2,31 @@
   "schema": 2,
   "channels": {
     "stable": {
-      "version": "1.1.5",
+      "version": "1.1.6",
       "revision": 1,
-      "notes": "Refines Drop Bar feedback, Preferences safety, spreadsheet locations, and Preview navigation icons.",
+      "notes": "Hardens dependencies, update extraction, release permissions, and packaged maintenance interfaces.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.5/Auto-Search-1.1.5-macOS-arm64.zip",
-          "sha256": "f0b48c1dc532e45eb24d1e0705aeafbd4099b638fb317d2325770458c4fa310d",
-          "size": 76428369,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.6/Auto-Search-1.1.6-macOS-arm64.zip",
+          "sha256": "70a343087ceb460ddcf58404cdaa6b4a32340a90d53e0d6074d62c3c80137842",
+          "size": 76761757,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "X5ecjrsBzz5Dl6YxyBRg8gysD/fTXNMP8rHu4Ejq6tX4EZ6YrlZUw2kLw/Ht+9BwamNhidJVHTvuY0WFXrjKDA=="
+              "signature": "Qqes9Tk1wX9coXWRHELPk1W09Cnni/sENzeLt7pyuH4HiyHESQzh7D/f5TyEGGbbwOmMA27vobVLUyXsncYdBA=="
             }
           ]
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.5/Auto-Search-1.1.5-windows-x64.zip",
-          "sha256": "d5663fde6cf2dd12796d1946861a479cb14cd712d3ae93029aef59ff882368e6",
-          "size": 89928795,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.6/Auto-Search-1.1.6-windows-x64.zip",
+          "sha256": "7fd9ab49e57c2520723fd19ff4009fe9b29f03aeedf4b17a0077c1779e85ee8a",
+          "size": 90160680,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "NA5vJ5NCQi1z1FmIO0J/r9EnA9wogpvD6fEjacLGo3oCpmkaraLUvmwi4mIqh+9IM3Pc7QhBZbeUxYDjTN4SCw=="
+              "signature": "4YTUnYxNk+5DFPLa63rh9eVT47OeMZOf6pCsG+cPYSOFbB/4x8CWeEo5CC2JYX54q/63IcmpkC7SSOg1UQIgDQ=="
             }
           ]
         }
