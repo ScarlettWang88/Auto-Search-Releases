@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.1.12",
+      "revision": 1,
+      "notes": "Fixes delayed New Outlook message drops that previously appeared to do nothing.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.12/Auto-Search-1.1.12-macOS-arm64.zip",
+          "sha256": "b0ca7df0038b01b73b85f323c014b201d52af91f82aa35ed0cc6a0daa935ca69",
+          "size": 76863179,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "5Q0odprL1F5fKVm+dz5EpDDj7lnTm/epR6fvsFllkRCAKKtP9vbafQBp2LhMLCWUELqhncXzmW4A5+pcGHvdCA=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.12/Auto-Search-1.1.12-windows-x64.zip",
+          "sha256": "48803ac64e87e29524332999624e44108173fe276281df04b144987ecfc4df0a",
+          "size": 90264329,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "JKKRI9UJw/lICKiQ/H2CQT9uy50MtF8pF/xeTUKDGVuJa4nBiCqtojpFr+IYePH7SLMfF5fD0HxWkFPHvSaKCA=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.1.11",
       "revision": 1,
       "notes": "Adds native asynchronous whole-message drag-and-drop from Windows New Outlook.",
