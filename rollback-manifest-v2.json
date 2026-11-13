@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.1.14",
+      "revision": 1,
+      "notes": "Adds an embedded Windows Shell email drop area and scans extracted attachments.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.14/Auto-Search-1.1.14-macOS-arm64.zip",
+          "sha256": "8c6d268c6a92ac1fe43b4c46b75f3364cbab0237c83b6faa96545a4ca0a1b1e2",
+          "size": 76880849,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "YEUCwWjr8O8PfOW4TkoBp3ra1wFFOJd3JU5qx9p8OO9VFt5YHf2CJ/4sq6+qQ8PjKMsk91BoiSfaMuV7r/38BQ=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.14/Auto-Search-1.1.14-windows-x64.zip",
+          "sha256": "2c94992d436aba6287e91e995e5b6edb14d2a03fe08ffce5201821c139093c9b",
+          "size": 90339350,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "3t6v44FBSpx1UePe6PgsD1ni+m82dbjOZpSJEdc8N8UWeIEFuGKtw7ZPecWuCVEsyrdLl3rKB3/RQ2SXW7bIDg=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.1.13",
       "revision": 1,
       "notes": "Adds a Windows Shell folder proxy for direct New Outlook message drops.",
