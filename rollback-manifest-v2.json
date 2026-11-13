@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.1.11",
+      "revision": 1,
+      "notes": "Adds native asynchronous whole-message drag-and-drop from Windows New Outlook.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.11/Auto-Search-1.1.11-macOS-arm64.zip",
+          "sha256": "18f603ffd68f78c62f00415308538d8c938e24337166994bca2cecde77ede72f",
+          "size": 76862539,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "k3M5H8C7InDABUblseHNwAyEZfLn1Zcfnwm8X3NjVdWI6phEo+hKuTwVzHhXhAHQ71yfm9rVhbKfmtI1zrjyBA=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.11/Auto-Search-1.1.11-windows-x64.zip",
+          "sha256": "115953f58f7fc41d97ad7754d407566534767a2ba9fc48431a5c09903bac47bf",
+          "size": 90263724,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "/091TXtHmz3gkSRLkehDNQjvjKJwdxYMh4kHVAFkLeUco4ZI08rjfb7LmTXaayJtIrpq/fX7pRdkmKTav+oRCg=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.1.10",
       "revision": 1,
       "notes": "Fixes Outlook drops that expose a placeholder URL beside the real virtual message contents.",
