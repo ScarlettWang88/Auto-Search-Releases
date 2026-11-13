@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.1.13",
+      "revision": 1,
+      "notes": "Adds a Windows Shell folder proxy for direct New Outlook message drops.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.13/Auto-Search-1.1.13-macOS-arm64.zip",
+          "sha256": "d9b105d6c74047b75eacb49f23d0da3de58d2f0343e269e812988c58975a71c1",
+          "size": 76868334,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "4Iu/QxM/7439yCGzqtL0HqGPnSA3Sql+e/SHTM2uycelWT9fephknU8Q9zWEgiB9Hf9FY1XS4NOtnfDsUmX6BA=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.13/Auto-Search-1.1.13-windows-x64.zip",
+          "sha256": "095d4ea8aa9489751ba256201aa3030dbd579154e3f4ba99d74653cd8786368c",
+          "size": 90268095,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "Wg4GnXq03y8i//NA+euz2GgrriKOKoWR1H1oIG0JmfoYYx2iELPwuSelFLLxgIn/wXfpkgb3b/UeAAfGXvgNCQ=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.1.12",
       "revision": 1,
       "notes": "Fixes delayed New Outlook message drops that previously appeared to do nothing.",
