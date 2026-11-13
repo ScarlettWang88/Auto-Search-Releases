@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.1.10",
+      "revision": 1,
+      "notes": "Fixes Outlook drops that expose a placeholder URL beside the real virtual message contents.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.10/Auto-Search-1.1.10-macOS-arm64.zip",
+          "sha256": "4ddf5118814538ad1fd7ff2e6c6ab2d1c2cb0a2032d3a32fc82152e21fe5e4f3",
+          "size": 76839249,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "S5bT9Mi1SEodH/5MpK4mds9VA8Qmsa4GytEKMBRVTDzPJh4MUGgfzqFpgillDZ+Yo80TscDSbXm/pBs405H0AQ=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.10/Auto-Search-1.1.10-windows-x64.zip",
+          "sha256": "c73ae0fb7dddb21521730cbe21ed049852b6ed8c3ac24c417d2c3543239ba14d",
+          "size": 90240264,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "29N9H2tueDoixnuXj6S1cwoHX9vGfzYVBCIZ1c2tuJsN816qBzcArh04xkuDFf/R/+Jbmgdio+w1k+0dHkVkCQ=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.1.9",
       "revision": 1,
       "notes": "Fixes Outlook EML-content messages delivered with an MSG file name.",

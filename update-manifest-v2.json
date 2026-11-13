@@ -2,31 +2,31 @@
   "schema": 2,
   "channels": {
     "stable": {
-      "version": "1.1.9",
+      "version": "1.1.10",
       "revision": 1,
-      "notes": "Fixes Outlook EML-content messages delivered with an MSG file name.",
+      "notes": "Fixes Outlook drops that expose a placeholder URL beside the real virtual message contents.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.9/Auto-Search-1.1.9-macOS-arm64.zip",
-          "sha256": "926aab06f892dd81a7b43c1793bc2d27982a69e0270e43cf0b310a679f3ff858",
-          "size": 76838490,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.10/Auto-Search-1.1.10-macOS-arm64.zip",
+          "sha256": "4ddf5118814538ad1fd7ff2e6c6ab2d1c2cb0a2032d3a32fc82152e21fe5e4f3",
+          "size": 76839249,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "WWkUozyOkHcBtDDheNBl+W+a1+59QbAOPTb5u0Dl+6/OaiYUX8QsZN1algogBJIe6rnYw0BKMQZRiQMcyxYUCg=="
+              "signature": "S5bT9Mi1SEodH/5MpK4mds9VA8Qmsa4GytEKMBRVTDzPJh4MUGgfzqFpgillDZ+Yo80TscDSbXm/pBs405H0AQ=="
             }
           ]
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.9/Auto-Search-1.1.9-windows-x64.zip",
-          "sha256": "2b6de7ac9490a6cad5fa0756d28a0820f803049bb59a5dae5cb2c48d820b9c38",
-          "size": 90240345,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.10/Auto-Search-1.1.10-windows-x64.zip",
+          "sha256": "c73ae0fb7dddb21521730cbe21ed049852b6ed8c3ac24c417d2c3543239ba14d",
+          "size": 90240264,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "SBQ2MWWDewGLBKlIcrzupbuQ4544v/GqIwjTqrd/hiZMemz561ApRRO/77U+Lp4eBAAGHePbvhFbINCB/lJECg=="
+              "signature": "29N9H2tueDoixnuXj6S1cwoHX9vGfzYVBCIZ1c2tuJsN816qBzcArh04xkuDFf/R/+Jbmgdio+w1k+0dHkVkCQ=="
             }
           ]
         }
