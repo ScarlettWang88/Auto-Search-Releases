@@ -2,31 +2,31 @@
   "schema": 2,
   "channels": {
     "stable": {
-      "version": "1.1.14",
+      "version": "1.1.15",
       "revision": 1,
-      "notes": "Adds an embedded Windows Shell email drop area and scans extracted attachments.",
+      "notes": "Unifies the app UI and fixes clearing the New Outlook drop area.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.14/Auto-Search-1.1.14-macOS-arm64.zip",
-          "sha256": "8c6d268c6a92ac1fe43b4c46b75f3364cbab0237c83b6faa96545a4ca0a1b1e2",
-          "size": 76880849,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.15/Auto-Search-1.1.15-macOS-arm64.zip",
+          "sha256": "9bd8a783db1aecfb5ce6c2c0cb7e3bbe06723e92da26761f8f0479225bc538df",
+          "size": 76883916,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "YEUCwWjr8O8PfOW4TkoBp3ra1wFFOJd3JU5qx9p8OO9VFt5YHf2CJ/4sq6+qQ8PjKMsk91BoiSfaMuV7r/38BQ=="
+              "signature": "uAx8bOdF+ODv5Cm469QNc7lyapu2KkRTum+1D0V3Ga5HpZfJ1VRm9nfXGhpRrInTVIKQz96r6WiMdcIU2PXfDQ=="
             }
           ]
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.14/Auto-Search-1.1.14-windows-x64.zip",
-          "sha256": "2c94992d436aba6287e91e995e5b6edb14d2a03fe08ffce5201821c139093c9b",
-          "size": 90339350,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.15/Auto-Search-1.1.15-windows-x64.zip",
+          "sha256": "863dd4db941cc14d354abf98fd8cbfdca1b6bcdf93a17b54642696dce25830a4",
+          "size": 90345291,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "3t6v44FBSpx1UePe6PgsD1ni+m82dbjOZpSJEdc8N8UWeIEFuGKtw7ZPecWuCVEsyrdLl3rKB3/RQ2SXW7bIDg=="
+              "signature": "7Kgp9Xgy6pZ6p673XT7T2uoE6mKecWgQQH10jOdWJStBBsQRo5aKRVNTdAdW6me3zm/M9WuceH3osmAGad6aCA=="
             }
           ]
         }
