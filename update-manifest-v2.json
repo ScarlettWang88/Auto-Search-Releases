@@ -2,31 +2,31 @@
   "schema": 2,
   "channels": {
     "stable": {
-      "version": "1.1.17",
+      "version": "1.2.0",
       "revision": 1,
-      "notes": "Shows email attachments before scanning and excludes inline signature images.",
+      "notes": "Speeds up large MSG email inspection with one bounded property index.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.17/Auto-Search-1.1.17-macOS-arm64.zip",
-          "sha256": "b7095708d85cbda1e053572861bea901d36278959be3fd7019a0e8b5122c9ead",
-          "size": 76892242,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.0/Auto-Search-1.2.0-macOS-arm64.zip",
+          "sha256": "afbb0541e5b4c24606d85661bb78b1a7951a2c4ce22b766d9a30797cc93278fa",
+          "size": 76893615,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "xpYUDbJMxkpNrhEIoRi8t2flj27PnHi8gpij9Vb+GDdwX+Abu8zq6DT+VKVETFr067VC/jOfNIKKSH8T+ECpDg=="
+              "signature": "sb7bV+W4FN8LLsmqLwLF0LljJcj4hNb2T5HtLqUEkJK9/UwKQudkxVW3pBrB5Hn9Y+LuYH1MOFJudz9eU5Y2CQ=="
             }
           ]
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.17/Auto-Search-1.1.17-windows-x64.zip",
-          "sha256": "f1c890353997bbaf506b4fb4bc84afff015f4152219782bdc17905b0eee51e39",
-          "size": 90354311,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.0/Auto-Search-1.2.0-windows-x64.zip",
+          "sha256": "845969c43dde6fceae4f1d14d8be0d7d46011a18ac3bfd2f92920caeac18e2b6",
+          "size": 90354209,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "xF8tZUmXKuLm3w4dNslyu6MCz3eSU0cGgriqAPAEOcA7octPpl66EEvpVQjOIC1h4IHVlqij4Pankgi/JmHRAA=="
+              "signature": "tdut6foBaAC0aJ3STYAZet7xh0jjYGVPjF3QYVrm2kdtCmql/8TKRRrkQPwyiipK4C+XB85S8H3Oul8FafoxAw=="
             }
           ]
         }
