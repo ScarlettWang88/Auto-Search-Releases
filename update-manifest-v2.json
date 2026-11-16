@@ -2,31 +2,31 @@
   "schema": 2,
   "channels": {
     "stable": {
-      "version": "1.1.16",
+      "version": "1.1.17",
       "revision": 1,
-      "notes": "Adds configurable Drop Bar scanning and visible email attachment queues.",
+      "notes": "Shows email attachments before scanning and excludes inline signature images.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.16/Auto-Search-1.1.16-macOS-arm64.zip",
-          "sha256": "171caba9c12c50c71adc8758b45c24b7df3879c0e33c495695002d9a89a803df",
-          "size": 76885897,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.17/Auto-Search-1.1.17-macOS-arm64.zip",
+          "sha256": "b7095708d85cbda1e053572861bea901d36278959be3fd7019a0e8b5122c9ead",
+          "size": 76892242,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "gM89DHfwnl4FaQ4w+PZKUCfXrFcSHqCiqjWgJdK6lrAvZu0fQiyWTW2jhBUjTnxK1IxfoGHJU0fX0JgaAnGFDQ=="
+              "signature": "xpYUDbJMxkpNrhEIoRi8t2flj27PnHi8gpij9Vb+GDdwX+Abu8zq6DT+VKVETFr067VC/jOfNIKKSH8T+ECpDg=="
             }
           ]
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.16/Auto-Search-1.1.16-windows-x64.zip",
-          "sha256": "bf803ffc33b7506d494e8f567f673de7ef7e71f2ee60f12ded4870e6c6e9dd97",
-          "size": 90346222,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.17/Auto-Search-1.1.17-windows-x64.zip",
+          "sha256": "f1c890353997bbaf506b4fb4bc84afff015f4152219782bdc17905b0eee51e39",
+          "size": 90354311,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "ktcLB1RkJXfkhgdxjH1fnVoe2T48BF8KszO+q0YKOOMvqIfcTmcD+iHKrfiYDTF2ydXTkhsrkuH6eP4g13QjBg=="
+              "signature": "xF8tZUmXKuLm3w4dNslyu6MCz3eSU0cGgriqAPAEOcA7octPpl66EEvpVQjOIC1h4IHVlqij4Pankgi/JmHRAA=="
             }
           ]
         }
