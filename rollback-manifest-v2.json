@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.1.16",
+      "revision": 1,
+      "notes": "Adds configurable Drop Bar scanning and visible email attachment queues.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.16/Auto-Search-1.1.16-macOS-arm64.zip",
+          "sha256": "171caba9c12c50c71adc8758b45c24b7df3879c0e33c495695002d9a89a803df",
+          "size": 76885897,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "gM89DHfwnl4FaQ4w+PZKUCfXrFcSHqCiqjWgJdK6lrAvZu0fQiyWTW2jhBUjTnxK1IxfoGHJU0fX0JgaAnGFDQ=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.1.16/Auto-Search-1.1.16-windows-x64.zip",
+          "sha256": "bf803ffc33b7506d494e8f567f673de7ef7e71f2ee60f12ded4870e6c6e9dd97",
+          "size": 90346222,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "ktcLB1RkJXfkhgdxjH1fnVoe2T48BF8KszO+q0YKOOMvqIfcTmcD+iHKrfiYDTF2ydXTkhsrkuH6eP4g13QjBg=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.1.15",
       "revision": 1,
       "notes": "Unifies the app UI and fixes clearing the New Outlook drop area.",
