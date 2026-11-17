@@ -2,31 +2,31 @@
   "schema": 2,
   "channels": {
     "stable": {
-      "version": "1.2.0",
+      "version": "1.2.1",
       "revision": 1,
-      "notes": "Speeds up large MSG email inspection with one bounded property index.",
+      "notes": "Shows the main-window startup error and keeps the Drop Bar retry action available.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.0/Auto-Search-1.2.0-macOS-arm64.zip",
-          "sha256": "afbb0541e5b4c24606d85661bb78b1a7951a2c4ce22b766d9a30797cc93278fa",
-          "size": 76893615,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.1/Auto-Search-1.2.1-macOS-arm64.zip",
+          "sha256": "0cc04644f29adcbdbfc43fd04a4a5cf32cdd5fa526b77f9f4c8eff6d79acebc8",
+          "size": 76893696,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "sb7bV+W4FN8LLsmqLwLF0LljJcj4hNb2T5HtLqUEkJK9/UwKQudkxVW3pBrB5Hn9Y+LuYH1MOFJudz9eU5Y2CQ=="
+              "signature": "7XfF12CvpltwY9RULL1Oe/ocF0+G6E4ihSmNfaimo7u2jG6sRqnHVZ+44KKEJFdUYw72u+//bh0bclyeIn5ADg=="
             }
           ]
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.0/Auto-Search-1.2.0-windows-x64.zip",
-          "sha256": "845969c43dde6fceae4f1d14d8be0d7d46011a18ac3bfd2f92920caeac18e2b6",
-          "size": 90354209,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.1/Auto-Search-1.2.1-windows-x64.zip",
+          "sha256": "3f7ea4ea9bf590ab35e8e18cf0c8a063742f81b0f63f9ea9b33facd325c2c24c",
+          "size": 90353863,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "tdut6foBaAC0aJ3STYAZet7xh0jjYGVPjF3QYVrm2kdtCmql/8TKRRrkQPwyiipK4C+XB85S8H3Oul8FafoxAw=="
+              "signature": "yb0SQrKsguitzh4S2vqOBfAB+9TioZlypdJeXxi+9CQDxoqzMuKLo6ocG+QaXCxS0IdquogqQDUFYPuD1a4SBQ=="
             }
           ]
         }

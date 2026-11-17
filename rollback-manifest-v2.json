@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.2.1",
+      "revision": 1,
+      "notes": "Shows the main-window startup error and keeps the Drop Bar retry action available.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.1/Auto-Search-1.2.1-macOS-arm64.zip",
+          "sha256": "0cc04644f29adcbdbfc43fd04a4a5cf32cdd5fa526b77f9f4c8eff6d79acebc8",
+          "size": 76893696,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "7XfF12CvpltwY9RULL1Oe/ocF0+G6E4ihSmNfaimo7u2jG6sRqnHVZ+44KKEJFdUYw72u+//bh0bclyeIn5ADg=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.1/Auto-Search-1.2.1-windows-x64.zip",
+          "sha256": "3f7ea4ea9bf590ab35e8e18cf0c8a063742f81b0f63f9ea9b33facd325c2c24c",
+          "size": 90353863,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "yb0SQrKsguitzh4S2vqOBfAB+9TioZlypdJeXxi+9CQDxoqzMuKLo6ocG+QaXCxS0IdquogqQDUFYPuD1a4SBQ=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.2.0",
       "revision": 1,
       "notes": "Speeds up large MSG email inspection with one bounded property index.",
