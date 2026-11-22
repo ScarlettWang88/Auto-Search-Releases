@@ -8,25 +8,25 @@
       "packages": {
         "macos-arm64": {
           "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.2/Auto-Search-1.2.2-macOS-arm64.zip",
-          "sha256": "466d1d85d20a529d29e52b3064743cc21b5e52e4c7df70922db1348b7a58cdff",
-          "size": 76908880,
+          "sha256": "217bade0df2a24d7ff1ae95e6708eba7863486d574d33aed6b9a4f974d6cf33e",
+          "size": 76910199,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "LlqTgmfKanAWDJL+csWeOyTzfpGsnks2ZK8uz7kiolLx5gLTefFxVkHVgLTcXH77zDRD2Fh9Mnpk3VS5vKj3Aw=="
+              "signature": "1bxVqWwQMk1iToDDaNwlN2cs0uKSZyv+T+FBs+Vsnhwqa9nZFB/rqYw0UG4vGOyHR69MwiTyRD+hcUks5pSwAg=="
             }
           ]
         },
         "windows-x64": {
           "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.2/Auto-Search-1.2.2-windows-x64.zip",
-          "sha256": "2e609c02b26e9b2e2da9e68c014f4367933f66bcad264c8211a8ac6211366747",
-          "size": 90329315,
+          "sha256": "7f20fd914e9323bc837b45be5410bf741b7db08bfcd111dde55b04382e3ac546",
+          "size": 90331809,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "b4ZSCryxX+8Gbfehxf4No/dLH/0DlM3qvdTTosuDxhuHGEW2KK3WyHede0GxpvrzWYHTbSARug58RIZBc0RCBA=="
+              "signature": "Y2qyNnOIz57d9WQc2hOvT2VVqcQao2zyZAXrY3hmGsyH90z9rbFQs515d7Mqc1lvxaIzBCoM2tZPd+QwQQJ9CQ=="
             }
           ]
         }
