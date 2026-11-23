@@ -3,30 +3,30 @@
   "channels": {
     "stable": {
       "version": "1.2.2",
-      "revision": 1,
-      "notes": "Adds English and Simplified Chinese interface options, with English as the default.",
+      "revision": 2,
+      "notes": "Repackaged 1.2.2 without bundled private keywords; fresh installs start blank.",
       "packages": {
         "macos-arm64": {
           "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.2/Auto-Search-1.2.2-macOS-arm64.zip",
-          "sha256": "217bade0df2a24d7ff1ae95e6708eba7863486d574d33aed6b9a4f974d6cf33e",
-          "size": 76910199,
+          "sha256": "8a7e56e1f39ff5c11867c05c07bb97fae2fc925082426365d21da01af1e93f45",
+          "size": 76909501,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "1bxVqWwQMk1iToDDaNwlN2cs0uKSZyv+T+FBs+Vsnhwqa9nZFB/rqYw0UG4vGOyHR69MwiTyRD+hcUks5pSwAg=="
+              "signature": "rZex9z4ppgWnAw4IaLqtQi/OmV7DUs9946whJ0scEFUEPBhGbXyL9ZFibQLgPfiqXCpg7jhS7Nh2rprgQknaBg=="
             }
           ]
         },
         "windows-x64": {
           "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.2/Auto-Search-1.2.2-windows-x64.zip",
-          "sha256": "7f20fd914e9323bc837b45be5410bf741b7db08bfcd111dde55b04382e3ac546",
-          "size": 90331809,
+          "sha256": "51f36d584e3d2bfe01623d4dcc315a50a66e526c899e33d1325e14baf22d8cbf",
+          "size": 90329359,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "Y2qyNnOIz57d9WQc2hOvT2VVqcQao2zyZAXrY3hmGsyH90z9rbFQs515d7Mqc1lvxaIzBCoM2tZPd+QwQQJ9CQ=="
+              "signature": "4yXrQF6FIBLk3uRGSZljmFZDr4skIFKPdbLnB1IEByz38+xrqTvFVxfD946rv2unNMtZ9/o/Nh/yluIR9IlgCg=="
             }
           ]
         }
