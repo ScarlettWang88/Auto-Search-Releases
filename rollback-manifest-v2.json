@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.2.4",
+      "revision": 1,
+      "notes": "Adds bundled offline English OCR for PNG and a persistent AS update badge.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.4/Auto-Search-1.2.4-macOS-arm64.zip",
+          "sha256": "85c3dc10532c4a61e78e6a07103f277b77c0fb24006daa86406b896162de5da1",
+          "size": 86524669,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "ghwxI18mXoU1OYqt6wzCo+014gcFIGgPcMrSyrDZEc7o1sdokfsZoLeXK44aO7vHq6y/ua8mcfoeYQ+H+2McDA=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.4/Auto-Search-1.2.4-windows-x64.zip",
+          "sha256": "7efbd3df524108d7c9b8c827baf985330e148667b8dbdf9e2836096712ac3443",
+          "size": 168536482,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "SQ6aGxLeSpETAKnj9dFwMO6LakSHD9J6W+5VWe8Z9efeBykh9DWkJRUhDx/DQEsiQWRGEL+tGKtNDBmQzqrACA=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.2.3",
       "revision": 1,
       "notes": "Fixes duplicate local keyword IDs blocking the main window and adds opt-in startup diagnostics.",

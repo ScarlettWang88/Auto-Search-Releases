@@ -2,31 +2,31 @@
   "schema": 2,
   "channels": {
     "stable": {
-      "version": "1.2.3",
+      "version": "1.2.4",
       "revision": 1,
-      "notes": "Fixes duplicate local keyword IDs blocking the main window and adds opt-in startup diagnostics.",
+      "notes": "Adds bundled offline English OCR for PNG and a persistent AS update badge.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.3/Auto-Search-1.2.3-macOS-arm64.zip",
-          "sha256": "d3706547aca492ea9f2fbb3eeb2ffe625e8153a24c32797f4506b2ad386836f2",
-          "size": 76910024,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.4/Auto-Search-1.2.4-macOS-arm64.zip",
+          "sha256": "85c3dc10532c4a61e78e6a07103f277b77c0fb24006daa86406b896162de5da1",
+          "size": 86524669,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "DX3ltJFgwZ3p+fcwFdWCLcBuJHrZ+g8NC/WI5DdMyJfjFi66Jvi7mftcV8IK5vDAQ1xRPJXTKLMaM+xUlWjNBQ=="
+              "signature": "ghwxI18mXoU1OYqt6wzCo+014gcFIGgPcMrSyrDZEc7o1sdokfsZoLeXK44aO7vHq6y/ua8mcfoeYQ+H+2McDA=="
             }
           ]
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.3/Auto-Search-1.2.3-windows-x64.zip",
-          "sha256": "a84d0d07aa7b82a811190e8feb5d7cf0f7eb0c93e94e74d23c50f2d7fe5aef6a",
-          "size": 90331602,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.4/Auto-Search-1.2.4-windows-x64.zip",
+          "sha256": "7efbd3df524108d7c9b8c827baf985330e148667b8dbdf9e2836096712ac3443",
+          "size": 168536482,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "rdVHr2mdwAsDK0XF8haXLJt5+bXRj8EXQEbcFOqRj8xMhovb1If5ESRO621M9QEjfv7uGZR1Bw67nQiBEPovAA=="
+              "signature": "SQ6aGxLeSpETAKnj9dFwMO6LakSHD9J6W+5VWe8Z9efeBykh9DWkJRUhDx/DQEsiQWRGEL+tGKtNDBmQzqrACA=="
             }
           ]
         }
