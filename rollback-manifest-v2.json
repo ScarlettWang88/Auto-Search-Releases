@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.2.3",
+      "revision": 1,
+      "notes": "Fixes duplicate local keyword IDs blocking the main window and adds opt-in startup diagnostics.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.3/Auto-Search-1.2.3-macOS-arm64.zip",
+          "sha256": "d3706547aca492ea9f2fbb3eeb2ffe625e8153a24c32797f4506b2ad386836f2",
+          "size": 76910024,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "DX3ltJFgwZ3p+fcwFdWCLcBuJHrZ+g8NC/WI5DdMyJfjFi66Jvi7mftcV8IK5vDAQ1xRPJXTKLMaM+xUlWjNBQ=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.3/Auto-Search-1.2.3-windows-x64.zip",
+          "sha256": "a84d0d07aa7b82a811190e8feb5d7cf0f7eb0c93e94e74d23c50f2d7fe5aef6a",
+          "size": 90331602,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "rdVHr2mdwAsDK0XF8haXLJt5+bXRj8EXQEbcFOqRj8xMhovb1If5ESRO621M9QEjfv7uGZR1Bw67nQiBEPovAA=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.2.2",
       "revision": 2,
       "notes": "Repackaged 1.2.2 without bundled private keywords; fresh installs start blank.",

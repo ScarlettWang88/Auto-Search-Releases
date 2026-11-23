@@ -2,31 +2,31 @@
   "schema": 2,
   "channels": {
     "stable": {
-      "version": "1.2.2",
-      "revision": 2,
-      "notes": "Repackaged 1.2.2 without bundled private keywords; fresh installs start blank.",
+      "version": "1.2.3",
+      "revision": 1,
+      "notes": "Fixes duplicate local keyword IDs blocking the main window and adds opt-in startup diagnostics.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.2/Auto-Search-1.2.2-macOS-arm64.zip",
-          "sha256": "8a7e56e1f39ff5c11867c05c07bb97fae2fc925082426365d21da01af1e93f45",
-          "size": 76909501,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.3/Auto-Search-1.2.3-macOS-arm64.zip",
+          "sha256": "d3706547aca492ea9f2fbb3eeb2ffe625e8153a24c32797f4506b2ad386836f2",
+          "size": 76910024,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "rZex9z4ppgWnAw4IaLqtQi/OmV7DUs9946whJ0scEFUEPBhGbXyL9ZFibQLgPfiqXCpg7jhS7Nh2rprgQknaBg=="
+              "signature": "DX3ltJFgwZ3p+fcwFdWCLcBuJHrZ+g8NC/WI5DdMyJfjFi66Jvi7mftcV8IK5vDAQ1xRPJXTKLMaM+xUlWjNBQ=="
             }
           ]
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.2/Auto-Search-1.2.2-windows-x64.zip",
-          "sha256": "51f36d584e3d2bfe01623d4dcc315a50a66e526c899e33d1325e14baf22d8cbf",
-          "size": 90329359,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.3/Auto-Search-1.2.3-windows-x64.zip",
+          "sha256": "a84d0d07aa7b82a811190e8feb5d7cf0f7eb0c93e94e74d23c50f2d7fe5aef6a",
+          "size": 90331602,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "4yXrQF6FIBLk3uRGSZljmFZDr4skIFKPdbLnB1IEByz38+xrqTvFVxfD946rv2unNMtZ9/o/Nh/yluIR9IlgCg=="
+              "signature": "rdVHr2mdwAsDK0XF8haXLJt5+bXRj8EXQEbcFOqRj8xMhovb1If5ESRO621M9QEjfv7uGZR1Bw67nQiBEPovAA=="
             }
           ]
         }
