@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.2.8",
+      "revision": 1,
+      "notes": "Includes local inline email images, including signature logos, in the attachment group for scanning and double-click access without adding them to Preview.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.8/Auto-Search-1.2.8-macOS-arm64.zip",
+          "sha256": "40e6035749693f779cd3a3bd11901d66d15db69d8fed2c1daaa27bddd8f5c872",
+          "size": 86547770,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "ghWnWdGyuXpK1BwmvRW17C0c4xnxXCJjfbHERHKNQ5YZYaFEEWJJiDAl0G/uZczsXRi9e8NTmZOmCABTa8gRDg=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.8/Auto-Search-1.2.8-windows-x64.zip",
+          "sha256": "987163e93eaf99bda6497c2d4b8a506a265d584f1be8b497f84aef43ac8835b4",
+          "size": 168559669,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "pkyhNQx9pfQKK+mMjbhIKYJ/OF2IPtG5dITmaQGHK9u0OX/YTas2k4dL4PprNs9AS93G5vhzYyX9d0Sin4oEAA=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.2.7",
       "revision": 1,
       "notes": "Keeps email PNG attachments out of Preview tabs while allowing double-click access, and refreshes the New Outlook email import card.",
