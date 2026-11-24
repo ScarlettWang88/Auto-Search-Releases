@@ -2,31 +2,31 @@
   "schema": 2,
   "channels": {
     "stable": {
-      "version": "1.2.6",
+      "version": "1.2.7",
       "revision": 1,
-      "notes": "Improves email attachment intake and queue review, and updates the Asearch menu branding.",
+      "notes": "Keeps email PNG attachments out of Preview tabs while allowing double-click access, and refreshes the New Outlook email import card.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.6/Auto-Search-1.2.6-macOS-arm64.zip",
-          "sha256": "23101cad938881963bf72b7e72341d584741540f162717d105aaca0a9662e3e2",
-          "size": 86543396,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.7/Auto-Search-1.2.7-macOS-arm64.zip",
+          "sha256": "6327fa6ef10383d2f80a74dddbfcdbb5faab8643d924a798b427612c801df837",
+          "size": 86546656,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "0O6oMHmlj8S+2Xt830AS/a8LKxc3oCxd5uUtGkUhAaNX6XzLVM/CRdFnPYqkqrZl5BCQfJZGJbHYyr860+L/BQ=="
+              "signature": "6TprCvkOViCa3Vq3i1tGtjU+hem70x0vXLWFfLpSVECTh+sMifTjGu3QS66s92289oc9EttJNyiQX6QNjXwdCQ=="
             }
           ]
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.6/Auto-Search-1.2.6-windows-x64.zip",
-          "sha256": "f1265cb5e148f18de4d4d8a496bea30f35829dde5b57eef4954ef7e12595dfef",
-          "size": 168556672,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.7/Auto-Search-1.2.7-windows-x64.zip",
+          "sha256": "300aeff659fca2ab6df03d88c57887d2d43071545fbaf3595d79b6ddf253e4bd",
+          "size": 168558538,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "omr4psG/suo5yjzbi4H8bhH+DM5qwOYiTLKj+UxNzF9PvuwMz2bFP4ZUG6gjrsKjm7XuYAmKL0npFZIPt0z/Ag=="
+              "signature": "0vjkjar/DiUYmT/6JrVAzQNTJAG1M2TMfG6niwbNiGd80Yj3WJOeLMBx1fNvrlpqGGHm8snDMywzlaSMDdWFAw=="
             }
           ]
         }
