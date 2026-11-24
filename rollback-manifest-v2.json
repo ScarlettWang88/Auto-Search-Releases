@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.2.6",
+      "revision": 1,
+      "notes": "Improves email attachment intake and queue review, and updates the Asearch menu branding.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.6/Auto-Search-1.2.6-macOS-arm64.zip",
+          "sha256": "23101cad938881963bf72b7e72341d584741540f162717d105aaca0a9662e3e2",
+          "size": 86543396,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "0O6oMHmlj8S+2Xt830AS/a8LKxc3oCxd5uUtGkUhAaNX6XzLVM/CRdFnPYqkqrZl5BCQfJZGJbHYyr860+L/BQ=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.6/Auto-Search-1.2.6-windows-x64.zip",
+          "sha256": "f1265cb5e148f18de4d4d8a496bea30f35829dde5b57eef4954ef7e12595dfef",
+          "size": 168556672,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "omr4psG/suo5yjzbi4H8bhH+DM5qwOYiTLKj+UxNzF9PvuwMz2bFP4ZUG6gjrsKjm7XuYAmKL0npFZIPt0z/Ag=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.2.5",
       "revision": 1,
       "notes": "Includes PNG email attachments in the scan and improves offline English OCR for small and low-contrast images.",
