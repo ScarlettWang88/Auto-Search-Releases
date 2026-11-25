@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.2.10",
+      "revision": 1,
+      "notes": "Outlook-style email summary cards and restored 1.2.8 vertical attachment list.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.10/Auto-Search-1.2.10-macOS-arm64.zip",
+          "sha256": "abef1b8fc7c3593b5aee4a6fe13ce0a4ec04b9eeb0361bc948ab7c1e7ad810bb",
+          "size": 86552485,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "71B3jHz4HquY7xfDyRU+wFfw02zvGBPgoZ2hruYiItCY2qA0JHhFhe5wj88w/aUaDnfaCoNoOpstR69mBaqLDA=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.10/Auto-Search-1.2.10-windows-x64.zip",
+          "sha256": "62c125c08de5b79fac03cf6c6f5d954be643f4a3ef2d6ce1ebfe86d5191fa606",
+          "size": 168565417,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "t69Rwrso/MA0Th/0uUXMWCLa0S6jO+ha56jl6F+eZQ+1pVlSL2lXZbBM4zW8vp56yFXSutVou+mog86bcNfLDQ=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.2.9",
       "revision": 1,
       "notes": "Shows email attachment names and status in responsive horizontal cards before scanning, and reveals the list when an email is dropped.",
