@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.2.11",
+      "revision": 1,
+      "notes": "Keeps New Outlook attachments inside Import and keeps email PNGs out of Preview.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.11/Auto-Search-1.2.11-macOS-arm64.zip",
+          "sha256": "63c6aaa50cb5341b0bc15f8e0eba5d321821f7fd920ed8b41c62273ee194f061",
+          "size": 86558614,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "WuR03YjBwTLgDox5xi2m8VshkaCvYVFmBXLJ9bNZOts6sG6M2MaU94LlYGHoqY9wPvSNA5yBgmyT2Welb8FjCQ=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.11/Auto-Search-1.2.11-windows-x64.zip",
+          "sha256": "e4fe1d3434c9184ed8419fed6a1a2796b69c54d5edc89e364a48cb44801cafaa",
+          "size": 168570432,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "WjxfEPZZHvwFOY3fqb+dUKJ41n8rpYXImKqPfJmXszlu/TU0N6YZ8R5onhEbGlejZGSUUi150/5pzxvC+kPYBQ=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.2.10",
       "revision": 1,
       "notes": "Outlook-style email summary cards and restored 1.2.8 vertical attachment list.",
