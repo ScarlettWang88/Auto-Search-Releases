@@ -2,31 +2,31 @@
   "schema": 2,
   "channels": {
     "stable": {
-      "version": "1.2.12",
+      "version": "1.2.13",
       "revision": 1,
-      "notes": "Clarifies New Outlook attachment handling and PNG behavior in bilingual Help.",
+      "notes": "Adds email attachment previews and keeps inline signature and logo images out of Preview.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.12/Auto-Search-1.2.12-macOS-arm64.zip",
-          "sha256": "8e6da3d7d76f27b2426d206499987ab997933b8ff38809e48ecf846cdbe55fd9",
-          "size": 86557556,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.13/Auto-Search-1.2.13-macOS-arm64.zip",
+          "sha256": "552006dbaddaa06a6314c8febc0bb665065a6a3ae6183b748b242d9a227d3376",
+          "size": 86557693,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "hLYYl0+wMye1z9gdzPX5c1Mk6TYCEcDrI/c5ENvdJafsbP3sf19IOHfhnnZTfXzfYrE2Uye7G+dEVGJiUiMxCQ=="
+              "signature": "O23wPB0ugHgUreVFc8XNatcUrXdzZitCNsQoV8JnuxTQ/aL84BN93sXCqfgijLST1NZ/13sI88stUIsaXvC1Cw=="
             }
           ]
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.12/Auto-Search-1.2.12-windows-x64.zip",
-          "sha256": "a11fd6cd0da13d61c7c5d2a9001136344aa6a3be526c7c14a2b4dcfbf24e8758",
-          "size": 168569969,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.13/Auto-Search-1.2.13-windows-x64.zip",
+          "sha256": "01db32ae5c7575c05f08bbe7b5c9e799df4abf499fa64728af1e1968ee502b5f",
+          "size": 168569510,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "m5cluYsUhN/G5mDYDdG3kRGC7sL6brKk+hGpqr6mRxIvrFZ/iucyQIbnzglaCsuvGQhQbVMu7RVvGs7hzAWiBQ=="
+              "signature": "f07XP29edphXLKtzJ/1mBGuLK77+DFZ5p92ifCLl++p3eqaY57WFjUOGGhTpLArzCPKZX8Rr0cB7NkfF/j1aBg=="
             }
           ]
         }
