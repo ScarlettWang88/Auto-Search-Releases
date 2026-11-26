@@ -2,31 +2,31 @@
   "schema": 2,
   "channels": {
     "stable": {
-      "version": "1.2.14",
+      "version": "1.2.15",
       "revision": 1,
-      "notes": "Hides inline signature images from Outlook Import and Preview; fixes attachment card layout.",
+      "notes": "Removes the overlapping New Outlook Import panel; excludes inline signature logos from attachments and Preview.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.14/Auto-Search-1.2.14-macOS-arm64.zip",
-          "sha256": "329451b09462f10b3b5b43a7ff2ee1192002e45b5c3ef661c764f97942071807",
-          "size": 86558523,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.15/Auto-Search-1.2.15-macOS-arm64.zip",
+          "sha256": "6065ce06d3086a9fa56cace88ab1207b6a643d1cb06153a4df508833af767ee3",
+          "size": 86555565,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "hspEfVZCSQW6mgOYLxuthhuujxXeBuOtDNLCBEo4qZBGXRbZel+YVSyQi+AxyEfyfZq1I3uBNArXTXwiRIE8Cg=="
+              "signature": "HmsDEoQSIMwF9DN/uFQ8Eo3XEcxEgK5WVMovmHi14j9Ma84zS4ydfyrzQSgK6DEm9XhVCJ+tPPUJwMWm5E6yCA=="
             }
           ]
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.14/Auto-Search-1.2.14-windows-x64.zip",
-          "sha256": "bcba13db657ba9b6f01c093376386be1562507c92daeb1eb9e2a5e09e37cc0f0",
-          "size": 168571792,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.15/Auto-Search-1.2.15-windows-x64.zip",
+          "sha256": "f54cb5a31d84758b0a1a6b4204b14c2db66f095b08bed10357446f1c5c149af6",
+          "size": 168568254,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "3X0fedOjJtpLKNnART2BxzvUhYTgq/J0Q63zLoXBzyoc2+80/d2QjqIv/DLl3gFCempGgYrXRGYAP0Pj43wYBA=="
+              "signature": "VyhinZAiUYTBVymQU+fh7oPIrq5nzqxjueyb3wji6NQhLGD2aSOBb1+CxuS0673/VVb/eoQT3BK+Z+L3u8cRDg=="
             }
           ]
         }
