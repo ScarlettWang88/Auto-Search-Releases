@@ -2,6 +2,38 @@
   "schema": 2,
   "releases": [
     {
+      "version": "1.2.16",
+      "revision": 1,
+      "notes": "Fixes inline email image filtering and improves email queue and Preview tabs.",
+      "packages": {
+        "macos-arm64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.16/Auto-Search-1.2.16-macOS-arm64.zip",
+          "sha256": "7d6165aa15d3b86bc92cda261044589026913ba1c69ff4cc7ab8b57076d6af12",
+          "size": 86559269,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "beQL7RVAwmMFJ1y9ux9yXNML8BMKyEUiqz368UXkT31JUDm05cH444iSNsvFoskzhLS13Uk3h4UYbY8JCTRyDw=="
+            }
+          ]
+        },
+        "windows-x64": {
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.16/Auto-Search-1.2.16-windows-x64.zip",
+          "sha256": "2d8696a9f45f33bd64e2c6e14a02b0040a45f133479f629884c2caeef4f13b40",
+          "size": 168571177,
+          "signatures": [
+            {
+              "key_id": "current-2026-10",
+              "algorithm": "Ed25519",
+              "signature": "r1zKCXgCs+Pmz3VvVDHwQ9GrFyRhVwP1rTbQnDc6UaDL0MFbZRwDovpmdv8AkYu7MF+RN9ixDWEvwbKJxpitAw=="
+            }
+          ]
+        }
+      },
+      "channel": "stable"
+    },
+    {
       "version": "1.2.15",
       "revision": 1,
       "notes": "Removes the overlapping New Outlook Import panel; excludes inline signature logos from attachments and Preview.",
