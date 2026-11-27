@@ -2,31 +2,31 @@
   "schema": 2,
   "channels": {
     "stable": {
-      "version": "1.2.16",
+      "version": "1.2.17",
       "revision": 1,
-      "notes": "Fixes inline email image filtering and improves email queue and Preview tabs.",
+      "notes": "Hides Exchange legacy sender identifiers; improves Preview filenames, email grouping, and tab reordering.",
       "packages": {
         "macos-arm64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.16/Auto-Search-1.2.16-macOS-arm64.zip",
-          "sha256": "7d6165aa15d3b86bc92cda261044589026913ba1c69ff4cc7ab8b57076d6af12",
-          "size": 86559269,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.17/Auto-Search-1.2.17-macOS-arm64.zip",
+          "sha256": "660f4281d0b0b4287d9f00aca8253c31002ff9decf7d957591a816212a65508a",
+          "size": 86559893,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "beQL7RVAwmMFJ1y9ux9yXNML8BMKyEUiqz368UXkT31JUDm05cH444iSNsvFoskzhLS13Uk3h4UYbY8JCTRyDw=="
+              "signature": "yAOE4FkaMUTZZ8j1gISGYkXDlWrkNg9iiEjghY8nBurgEfjsrbr5irLUV8qfJDEoHaA0YYP8jYZqdGcyiQRDBw=="
             }
           ]
         },
         "windows-x64": {
-          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.16/Auto-Search-1.2.16-windows-x64.zip",
-          "sha256": "2d8696a9f45f33bd64e2c6e14a02b0040a45f133479f629884c2caeef4f13b40",
-          "size": 168571177,
+          "url": "https://github.com/ScarlettWang88/Auto-Search-Releases/releases/download/v1.2.17/Auto-Search-1.2.17-windows-x64.zip",
+          "sha256": "ceb73488dc7972b7f4161ebe7369777b018530b1fc9bc31816a65e4c2ffdfcc5",
+          "size": 168572271,
           "signatures": [
             {
               "key_id": "current-2026-10",
               "algorithm": "Ed25519",
-              "signature": "r1zKCXgCs+Pmz3VvVDHwQ9GrFyRhVwP1rTbQnDc6UaDL0MFbZRwDovpmdv8AkYu7MF+RN9ixDWEvwbKJxpitAw=="
+              "signature": "YKjdvjN+lTvlDt/6MV2Lls//EQvW1qwA5P/O0MU2Tn+fmWpbvJhE2qOXxbL0Zil8LDarQlD0EavfRVI9gBW2BA=="
             }
           ]
         }
